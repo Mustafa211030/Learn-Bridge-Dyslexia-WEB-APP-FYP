@@ -1,0 +1,1264 @@
+{
+  "categories": {
+    "projectOverview": [
+      {
+        "question": "What exactly is LearnBridge Kids?",
+        "answer": "LearnBridge Kids is a comprehensive, AI-powered digital learning platform specifically designed for children aged 6-12 with dyslexia. It combines gamified learning activities, bilingual support (Urdu/English), adaptive AI technology, and comprehensive progress tracking to create a personalized learning experience that addresses the unique challenges dyslexic children face in reading, writing, and cognitive development.",
+        "keywords": ["what is", "explain", "describe", "overview", "about", "platform"]
+      },
+      {
+        "question": "Who created LearnBridge Kids and why?",
+        "answer": "LearnBridge Kids was developed by Computer Science students Talha Hassan, Mustafa Saeed, and Sarah Maqsood Ghaury from Air University Islamabad as their Final Year Project (2021-2025). The project was created to address the critical gap in culturally relevant, bilingual dyslexia support tools in Pakistan, where existing solutions are primarily English-focused and lack Urdu support essential for early literacy development.",
+        "keywords": ["created", "made", "developers", "team", "why", "purpose", "reason"]
+      },
+      {
+        "question": "What age group is this platform designed for?",
+        "answer": "LearnBridge Kids is specifically designed for children aged 6 to 12 years old. This age range represents the critical period for literacy development and early intervention for dyslexia. The content, games, and interface are all age-appropriate for elementary school children in grades 1-6.",
+        "keywords": ["age", "old", "children", "kids", "grade", "school", "elementary"]
+      },
+      {
+        "question": "What makes LearnBridge Kids different from other dyslexia apps?",
+        "answer": "LearnBridge Kids stands out with 5 key differentiators: 1) Complete bilingual Urdu-English support with cultural relevance, 2) AI-powered adaptive learning that personalizes in real-time, 3) Comprehensive stakeholder ecosystem (parents, psychologists, teachers), 4) Evidence-based game design informed by dyslexia research, 5) Integration of cognitive, emotional, and academic development in one platform.",
+        "keywords": ["different", "unique", "better", "compare", "versus", "special", "advantage"]
+      },
+      {
+        "question": "Is this based on scientific research about dyslexia?",
+        "answer": "Yes, LearnBridge Kids is built on extensive research including: Orton-Gillingham structured literacy approach, phonological awareness training principles, multisensory learning theory, Universal Design for Learning (UDL) framework, and consultation with psychologists, educators, and speech therapists specializing in dyslexia intervention.",
+        "keywords": ["research", "science", "evidence", "based", "scientific", "theory"]
+      },
+      {
+        "question": "What are the main goals of LearnBridge Kids?",
+        "answer": "Primary goals: 1) Improve literacy skills in dyslexic children, 2) Build confidence and reduce anxiety around reading/writing, 3) Provide accessible, culturally relevant learning tools, 4) Enable early intervention through progress monitoring, 5) Support caregivers and educators with actionable insights, 6) Make learning engaging through gamification.",
+        "keywords": ["goals", "objectives", "aims", "purpose", "target", "mission"]
+      },
+      {
+        "question": "How long did it take to develop this platform?",
+        "answer": "The platform was developed over a structured 10-phase project timeline spanning the 2021-2025 academic period. Development followed agile methodology with phases including research, design, frontend/backend development, AI integration, testing, and deployment, totaling approximately 8 months of active development.",
+        "keywords": ["time", "duration", "develop", "build", "create", "months", "timeline"]
+      },
+      {
+        "question": "What inspired the creation of LearnBridge Kids?",
+        "answer": "The project was inspired by: 1) Personal observations of dyslexic children struggling in Pakistan's education system, 2) Research showing lack of Urdu-based dyslexia tools, 3) Consultation with special education teachers, 4) Global success of gamified learning for learning disabilities, 5) Advancements in AI for personalized education.",
+        "keywords": ["inspired", "inspiration", "idea", "concept", "origin", "beginning"]
+      },
+      {
+        "question": "Is LearnBridge Kids only for children with diagnosed dyslexia?",
+        "answer": "While specifically designed for diagnosed dyslexia, the platform benefits any child struggling with reading, writing, or phonological awareness. It's also useful for children learning Urdu/English as second languages, those with other reading difficulties, or as supplemental literacy support for all elementary students.",
+        "keywords": ["diagnosed", "only", "exclusive", "who can use", "suitable", "appropriate"]
+      },
+      {
+        "question": "What problem does LearnBridge Kids solve?",
+        "answer": "Solves: 1) Lack of culturally relevant dyslexia tools in Pakistan, 2) Limited Urdu language support in existing solutions, 3) High cost of specialized dyslexia intervention, 4) Inaccessibility of expert support in remote areas, 5) One-size-fits-all approach in traditional learning tools, 6) Lack of engagement in conventional dyslexia exercises.",
+        "keywords": ["problem", "solve", "address", "fix", "solution", "issue", "challenge"]
+      },
+      {
+        "question": "How does the platform help with emotional aspects of dyslexia?",
+        "answer": "Addresses emotional aspects through: 1) Positive reinforcement and achievement systems, 2) Reduced anxiety through adjustable difficulty, 3) Confidence building via progress tracking, 4) Engaging gameplay that reduces frustration, 5) Parental insights to understand emotional patterns, 6) Celebration of small victories and improvements.",
+        "keywords": ["emotional", "confidence", "anxiety", "frustration", "self-esteem", "feelings"]
+      },
+      {
+        "question": "What educational philosophy guides LearnBridge Kids?",
+        "answer": "Guided by: 1) Constructivist learning theory (active knowledge building), 2) Zone of Proximal Development (scaffolded learning), 3) Universal Design for Learning (multiple means of engagement), 4) Multisensory learning principles, 5) Differentiated instruction through AI adaptation, 6) Game-based learning motivation theory.",
+        "keywords": ["philosophy", "approach", "theory", "educational", "pedagogy", "method"]
+      },
+      {
+        "question": "Can LearnBridge Kids be used alongside traditional schooling?",
+        "answer": "Absolutely! The platform complements traditional schooling by: 1) Providing supplemental practice at home, 2) Reinforcing classroom learning objectives, 3) Offering personalized support where classroom instruction may be insufficient, 4) Enabling teachers to track specific skill development, 5) Aligning with Pakistani school curriculum standards.",
+        "keywords": ["school", "classroom", "alongside", "together", "supplement", "homework"]
+      },
+      {
+        "question": "What future developments are planned for LearnBridge Kids?",
+        "answer": "Future plans: 1) Mobile app development, 2) Additional regional language support (Punjabi, Sindhi), 3) Advanced AI features like emotion recognition, 4) Expanded game library, 5) Integration with school management systems, 6) International expansion, 7) Community features for parent support groups.",
+        "keywords": ["future", "planned", "developments", "next", "upcoming", "roadmap"]
+      },
+      {
+        "question": "How does LearnBridge Kids ensure cultural relevance?",
+        "answer": "Cultural relevance through: 1) Urdu language with proper script support, 2) Pakistani cultural references in stories, 3) Local educational context alignment, 4) Consultation with Pakistani educators, 5) Age-appropriate content for Pakistani children, 6) Consideration of local learning styles and preferences.",
+        "keywords": ["cultural", "relevance", "pakistan", "local", "context", "appropriate"]
+      }
+    ],
+
+    "phonemeGame": [
+      {
+        "question": "What is the Phoneme Recognition Game?",
+        "answer": "The Phoneme Recognition Game is a foundational literacy game that helps children connect speech sounds (phonemes) with corresponding letters or letter combinations. It addresses the core phonological processing difficulty in dyslexia by training children to recognize, distinguish, and match sounds to their visual representations in both Urdu and English.",
+        "keywords": ["phoneme", "recognition", "game", "what is", "explain", "sound"]
+      },
+      {
+        "question": "How does the Phoneme Game help dyslexic children?",
+        "answer": "Helps by: 1) Improving phonological awareness (critical for reading), 2) Training sound-letter correspondence, 3) Reducing phoneme confusion common in dyslexia, 4) Building auditory discrimination skills, 5) Providing multisensory reinforcement (audio + visual), 6) Offering gradual progression from simple to complex phonemes.",
+        "keywords": ["help", "benefit", "assist", "support", "improve", "dyslexic"]
+      },
+      {
+        "question": "What specific skills does the Phoneme Game develop?",
+        "answer": "Develops: 1) Phonemic awareness (hearing/manipulating sounds), 2) Sound-symbol association, 3) Auditory discrimination, 4) Phonological memory, 5) Blending and segmenting skills, 6) Phonological processing speed, 7) Attention to speech sounds, 8) Multisensory integration.",
+        "keywords": ["skills", "develop", "teach", "learn", "abilities", "competencies"]
+      },
+      {
+        "question": "How does the game progress in difficulty?",
+        "answer": "Progresses through: 1) Single consonant sounds → consonant blends → digraphs, 2) Short vowels → long vowels → diphthongs, 3) Beginning sounds → ending sounds → medial sounds, 4) Isolated sounds → sound in words → sound discrimination in similar words, 5) Visual matching → auditory-only recognition → timed challenges.",
+        "keywords": ["difficulty", "progress", "levels", "stages", "advance", "harder"]
+      },
+      {
+        "question": "What types of phoneme activities are included?",
+        "answer": "Activities: 1) Sound matching (match sound to letter), 2) Sound isolation (identify position in word), 3) Sound blending (combine to make word), 4) Sound segmentation (break word into sounds), 5) Sound manipulation (change/add/delete sounds), 6) Minimal pair discrimination (bat vs. pat), 7) Phoneme counting games.",
+        "keywords": ["activities", "types", "kinds", "exercises", "tasks", "challenges"]
+      },
+      {
+        "question": "How does the game provide feedback?",
+        "answer": "Feedback includes: 1) Immediate correct/incorrect indicators, 2) Visual highlighting of correct matches, 3) Audio reinforcement of correct sounds, 4) Progress tracking with stars/badges, 5) Encouraging messages for attempts, 6) Hints after multiple incorrect tries, 7) Demonstration of correct sound production.",
+        "keywords": ["feedback", "response", "correct", "incorrect", "answer", "result"]
+      },
+      {
+        "question": "What makes this game dyslexia-friendly?",
+        "answer": "Dyslexia-friendly features: 1) Extra processing time allowed, 2) Reduced visual clutter, 3) Dyslexia-friendly fonts (OpenDyslexic), 4) High contrast visuals, 5) Clear audio with noise reduction, 6) No time pressure for initial levels, 7) Multisensory reinforcement, 8) Break options to prevent fatigue.",
+        "keywords": ["dyslexia friendly", "accessible", "suitable", "designed", "features", "considerate"]
+      },
+      {
+        "question": "How are Urdu phonemes handled differently?",
+        "answer": "Urdu phoneme handling: 1) Special attention to retroflex sounds (ٹ, ڈ, ڑ), 2) Emphasis on vowel diacritics (حرکات), 3) Consonant clusters specific to Urdu, 4) Proper pronunciation of Arabic/Persian loan sounds, 5) Right-to-left visual presentation, 6) Culturally relevant word examples, 7) Native speaker audio recordings.",
+        "keywords": ["urdu", "phonemes", "different", "specific", "language", "arabic"]
+      },
+      {
+        "question": "Can parents track phoneme game progress?",
+        "answer": "Yes! Parents see: 1) Accuracy rates for different phoneme types, 2) Response time improvements, 3) Specific phonemes causing difficulty, 4) Progress over time charts, 5) Comparison with age-appropriate benchmarks, 6) Recommendations for additional practice, 7) Notifications of mastered phonemes.",
+        "keywords": ["track", "progress", "monitor", "parents", "see", "view"]
+      },
+      {
+        "question": "How does AI adapt the phoneme game?",
+        "answer": "AI adaptation: 1) Adjusts difficulty based on accuracy, 2) Identifies persistent error patterns, 3) Recommends specific phoneme practice, 4) Customizes presentation speed, 5) Selects optimal word examples, 6) Adjusts hint frequency, 7) Creates personalized progression paths based on individual needs.",
+        "keywords": ["ai", "adapt", "personalize", "adjust", "intelligent", "smart"]
+      },
+      {
+        "question": "What research supports phoneme training for dyslexia?",
+        "answer": "Supported by: 1) National Reading Panel findings on phonemic awareness, 2) Orton-Gillingham approach evidence, 3) Studies showing phonological deficit in dyslexia, 4) Research on early phoneme intervention effectiveness, 5) Meta-analyses of phonics-based instruction, 6) Brain imaging studies of phonological processing.",
+        "keywords": ["research", "evidence", "support", "studies", "proven", "effective"]
+      },
+      {
+        "question": "How long should children play phoneme games daily?",
+        "answer": "Recommended: 10-15 minutes daily for optimal results. Shorter, frequent sessions are more effective than longer sessions. The game includes natural break points and encourages regular, consistent practice rather than marathon sessions to maintain engagement and prevent fatigue.",
+        "keywords": ["time", "daily", "minutes", "duration", "how long", "play"]
+      },
+      {
+        "question": "What age is appropriate for phoneme games?",
+        "answer": "Appropriate for ages 6-12, with difficulty scaling: Ages 6-7: basic consonants/vowels; Ages 8-9: blends/digraphs; Ages 10-12: advanced phoneme manipulation. Younger children focus on sound awareness, older children on application in reading/writing contexts.",
+        "keywords": ["age", "appropriate", "suitable", "years", "old", "level"]
+      },
+      {
+        "question": "How does the game handle children with speech difficulties?",
+        "answer": "Accommodations: 1) Alternative response methods (pointing/clicking), 2) Reduced speech production requirements, 3) Visual cues supplementing audio, 4) Extended response time, 5) Focus on recognition rather than production initially, 6) Collaboration with speech therapy goals when indicated.",
+        "keywords": ["speech", "difficulties", "problems", "accommodate", "handle", "support"]
+      },
+      {
+        "question": "Can therapists use phoneme game data for intervention?",
+        "answer": "Yes! Therapists receive: 1) Detailed error analysis reports, 2) Progress monitoring charts, 3) Phoneme mastery timelines, 4) Comparison with therapeutic goals, 5) Exportable data for reports, 6) Insights into phonological processing patterns, 7) Recommendations for clinical focus areas.",
+        "keywords": ["therapists", "intervention", "data", "use", "clinical", "therapy"]
+      }
+    ],
+
+    "wordPuzzleGame": [
+      {
+        "question": "What is the Word Formation Puzzle game?",
+        "answer": "The Word Formation Puzzle is a drag-and-drop vocabulary building game where children arrange letter tiles to form complete words. It combines visual-spatial skills with phonological awareness to help dyslexic children understand word structure, spelling patterns, and morphological elements in both Urdu and English.",
+        "keywords": ["word", "puzzle", "formation", "game", "what is", "explain"]
+      },
+      {
+        "question": "How does the Word Puzzle help with dyslexia?",
+        "answer": "Helps by: 1) Reinforcing letter sequence memory, 2) Teaching common spelling patterns, 3) Building visual memory of word shapes, 4) Developing fine motor skills through dragging, 5) Connecting phonemes to graphemes in context, 6) Expanding vocabulary systematically, 7) Reducing letter reversal errors through practice.",
+        "keywords": ["help", "benefit", "assist", "dyslexia", "support", "improve"]
+      },
+      {
+        "question": "What types of words are used in the puzzles?",
+        "answer": "Word categories: 1) CVC words (cat, dog), 2) Sight words (the, and), 3) Phonetically regular words, 4) Morphemic families (run, running, runner), 5) Thematic vocabulary sets, 6) Culturally relevant Urdu/English words, 7) Grade-level appropriate vocabulary, 8) High-frequency reading words.",
+        "keywords": ["words", "types", "categories", "examples", "vocabulary", "lists"]
+      },
+      {
+        "question": "How does difficulty progression work?",
+        "answer": "Progression: 1) 3-letter words → 4-letter → 5+ letters, 2) Single syllables → multisyllabic words, 3) Phonetically regular → irregular words, 4) Concrete nouns → abstract concepts, 5) With visual hints → without hints, 6) Unlimited time → timed challenges, 7) Pre-arranged letters → scrambled letters.",
+        "keywords": ["difficulty", "progress", "levels", "stages", "advance", "harder"]
+      },
+      {
+        "question": "What visual supports are provided?",
+        "answer": "Visual supports: 1) Picture cues for word meaning, 2) Color-coded vowels/consonants, 3) Letter shape outlines as hints, 4) Word length indicators, 5) Beginning/ending sound highlights, 6) Morphological segmentation (prefix-root-suffix), 7) Animation showing word formation process.",
+        "keywords": ["visual", "supports", "helps", "cues", "hints", "aids"]
+      },
+      {
+        "question": "How does the game address common dyslexic spelling errors?",
+        "answer": "Addresses: 1) Letter reversals (b/d) with distinct visuals, 2) Sequence errors through step-by-step building, 3) Phonetic spelling confusion with audio reinforcement, 4) Sight word memorization through repetition, 5) Morphological awareness through word family grouping, 6) Visual memory training of whole word shapes.",
+        "keywords": ["spelling", "errors", "mistakes", "common", "address", "correct"]
+      },
+      {
+        "question": "What feedback mechanisms are used?",
+        "answer": "Feedback: 1) Immediate visual confirmation, 2) Audio pronunciation of completed words, 3) Star ratings based on speed/accuracy, 4) Progress tracking with badges, 5) Encouraging animations, 6) Corrective demonstration for errors, 7) Hint system after struggling, 8) Celebration of consecutive successes.",
+        "keywords": ["feedback", "response", "correct", "incorrect", "answer", "result"]
+      },
+      {
+        "question": "How is Urdu word formation different?",
+        "answer": "Urdu specific: 1) Right-to-left letter arrangement, 2) Connected script considerations, 3) Diacritic marks for vowels, 4) Letter forms change based on position, 5) Perso-Arabic script unique features, 6) Culturally relevant vocabulary, 7) Proper noun/adjective agreement patterns, 8) Compound word formation rules.",
+        "keywords": ["urdu", "different", "specific", "arabic", "script", "right to left"]
+      },
+      {
+        "question": "What cognitive skills does this game develop?",
+        "answer": "Develops: 1) Visual-spatial processing, 2) Working memory for letter sequences, 3) Pattern recognition, 4) Fine motor coordination, 5) Phonological working memory, 6) Orthographic processing, 7) Executive function (planning, organization), 8) Visual attention to detail.",
+        "keywords": ["cognitive", "skills", "develop", "thinking", "mental", "abilities"]
+      },
+      {
+        "question": "Can children create their own word puzzles?",
+        "answer": "Advanced feature: Children can create puzzles from their vocabulary lists, customizing difficulty. Teachers/parents can also create custom puzzles targeting specific words, spelling patterns, or thematic vocabulary relevant to classroom learning or individual needs.",
+        "keywords": ["create", "own", "custom", "personal", "make", "build"]
+      },
+      {
+        "question": "How does the game support vocabulary expansion?",
+        "answer": "Vocabulary support: 1) Thematic word sets (animals, food), 2) Word family groupings, 3) Synonyms/antonyms practice, 4) Context sentence building, 5) Picture-word association, 6) Definition reinforcement, 7) Multiple exposure through different game modes, 8) Progressive introduction of new words.",
+        "keywords": ["vocabulary", "words", "expand", "learn", "new", "language"]
+      },
+      {
+        "question": "What adaptive features does the puzzle game have?",
+        "answer": "Adaptive features: 1) Adjusts word difficulty based on success rate, 2) Focuses on problematic letter patterns, 3) Customizes hint frequency, 4) Adjusts time limits, 5) Prioritizes words from error patterns, 6) Creates personalized word sets, 7) Adjusts visual complexity based on needs.",
+        "keywords": ["adaptive", "ai", "smart", "personalize", "adjust", "intelligent"]
+      },
+      {
+        "question": "How is progress measured in word puzzles?",
+        "answer": "Progress metrics: 1) Words mastered by category, 2) Speed improvement over time, 3) Accuracy rates by word type, 4) Error pattern analysis, 5) Vocabulary growth tracking, 6) Comparison with grade-level benchmarks, 7) Consistency of performance, 8) Reduction in specific error types.",
+        "keywords": ["progress", "measure", "track", "metrics", "data", "performance"]
+      },
+      {
+        "question": "What research supports word puzzle games for dyslexia?",
+        "answer": "Supported by: 1) Studies on orthographic mapping, 2) Research on visual word form area development, 3) Evidence for multisensory word learning, 4) Studies on spelling intervention effectiveness, 5) Research on vocabulary acquisition in dyslexia, 6) Cognitive science on pattern recognition learning.",
+        "keywords": ["research", "evidence", "support", "studies", "proven", "effective"]
+      },
+      {
+        "question": "How does the game integrate with reading development?",
+        "answer": "Integration: 1) Words appear in later reading activities, 2) Reinforces phonics patterns from phoneme games, 3) Builds sight word vocabulary for fluency, 4) Connects spelling to reading comprehension, 5) Provides foundation for sentence construction, 6) Transfers skills to authentic reading contexts.",
+        "keywords": ["reading", "integrate", "connect", "relate", "development", "skills"]
+      }
+    ],
+
+    "readingAdventureGame": [
+      {
+        "question": "What is the Reading Comprehension Adventure game?",
+        "answer": "The Reading Comprehension Adventure is an interactive story-based game that builds reading fluency and comprehension skills. Children read engaging stories in Urdu or English, then answer questions that test understanding, make predictions, draw inferences, and connect text to their own experiences—all within an adventure game format that maintains engagement.",
+        "keywords": ["reading", "comprehension", "adventure", "game", "what is", "explain"]
+      },
+      {
+        "question": "How does this game help dyslexic readers?",
+        "answer": "Helps by: 1) Building reading stamina gradually, 2) Teaching comprehension strategies explicitly, 3) Reducing anxiety through adjustable text, 4) Providing immediate feedback, 5) Making reading enjoyable through stories, 6) Building confidence with achievable challenges, 7) Connecting reading to meaningful contexts.",
+        "keywords": ["help", "benefit", "assist", "dyslexic", "readers", "support"]
+      },
+      {
+        "question": "What types of stories are included?",
+        "answer": "Story types: 1) Original culturally relevant tales, 2) Adapted folk stories, 3) Non-fiction passages, 4) Poetry and rhymes, 5) Dialogues and conversations, 6) Sequential narratives, 7) Descriptive passages, 8) Procedural texts, 9) Opinion pieces, 10) Mixed genre collections.",
+        "keywords": ["stories", "types", "genres", "texts", "passages", "content"]
+      },
+      {
+        "question": "How are stories made dyslexia-friendly?",
+        "answer": "Dyslexia-friendly features: 1) Adjustable font (OpenDyslexic), 2) Customizable text size/spacing, 3) High contrast backgrounds, 4) Short paragraphs with clear breaks, 5) Simplified sentence structures initially, 6) Visual supports for vocabulary, 7) Text-to-speech option, 8) Clickable word pronunciation, 9) Highlighted text tracking.",
+        "keywords": ["dyslexia friendly", "accessible", "readable", "text", "font", "format"]
+      },
+      {
+        "question": "What comprehension skills are targeted?",
+        "answer": "Targeted skills: 1) Literal understanding (who, what, where), 2) Inference making (why, how), 3) Prediction, 4) Sequencing, 5) Main idea identification, 6) Detail recall, 7) Vocabulary in context, 8) Character analysis, 9) Cause-effect relationships, 10) Text connection to self/world.",
+        "keywords": ["comprehension", "skills", "targeted", "focus", "teach", "develop"]
+      },
+      {
+        "question": "How does the adventure game format work?",
+        "answer": "Game format: Children choose adventure paths, make story decisions, solve puzzles to progress, earn rewards for comprehension success, unlock new story chapters, collect virtual items, and see consequences of their reading choices—making comprehension an active, engaging process rather than passive reading.",
+        "keywords": ["adventure", "format", "game", "play", "interactive", "choose"]
+      },
+      {
+        "question": "What supports are available during reading?",
+        "answer": "Reading supports: 1) Text-to-speech for whole passages, 2) Individual word pronunciation, 3) Vocabulary definitions on hover, 4) Visual context images, 5) Reading pace control, 6) Line tracking highlight, 7) Chunking of long sentences, 8) Summarization prompts, 9) Question preview before reading.",
+        "keywords": ["supports", "help", "assistance", "during", "reading", "tools"]
+      },
+      {
+        "question": "How does questioning progress in difficulty?",
+        "answer": "Question progression: 1) Literal → inferential → evaluative, 2) Multiple choice → short answer → extended response, 3) Text-explicit → text-implicit → experience-based, 4) Single skill → integrated skills, 5) With text reference → from memory, 6) Concrete → abstract concepts.",
+        "keywords": ["questions", "difficulty", "progress", "levels", "types", "harder"]
+      },
+      {
+        "question": "What feedback do children receive?",
+        "answer": "Feedback includes: 1) Immediate answer correctness, 2) Explanation of correct answers, 3) Page reference for text evidence, 4) Strategy suggestions for incorrect answers, 5) Progress tracking through story, 6) Reward points for accuracy, 7) Encouragement for effort, 8) Reading time statistics.",
+        "keywords": ["feedback", "response", "answer", "correct", "incorrect", "explanation"]
+      },
+      {
+        "question": "How are Urdu stories specially designed?",
+        "answer": "Urdu design: 1) Right-to-left text flow, 2) Proper Nastaliq script rendering, 3) Culturally relevant themes, 4) Age-appropriate vocabulary, 5) Consideration of Urdu literary styles, 6) Integration of Pakistani cultural references, 7) Attention to Urdu comprehension question phrasing, 8) Native speaker audio recordings.",
+        "keywords": ["urdu", "stories", "design", "specific", "cultural", "pakistan"]
+      },
+      {
+        "question": "What reading fluency features are included?",
+        "answer": "Fluency features: 1) Timed reading exercises, 2) Repeated reading options, 3) Phrasing practice, 4) Expression guidance, 5) Pace tracking, 6) Accuracy rate calculation, 7) Comprehension-speed balance emphasis, 8) Progress charts for reading rate improvement.",
+        "keywords": ["fluency", "reading", "speed", "pace", "expression", "rate"]
+      },
+      {
+        "question": "How does the game build reading confidence?",
+        "answer": "Confidence building: 1) Gradual difficulty increase, 2) Celebration of small successes, 3) No penalty for using supports, 4) Option to re-read without judgment, 5) Positive reinforcement language, 6) Visible progress markers, 7) Peer comparison avoided, 8) Focus on individual improvement.",
+        "keywords": ["confidence", "build", "self-esteem", "encourage", "motivate", "positive"]
+      },
+      {
+        "question": "Can teachers assign specific stories?",
+        "answer": "Yes! Teacher features: 1) Assign specific stories to students, 2) Set comprehension goals, 3) Track individual/class progress, 4) Create custom reading assignments, 5) Align stories with curriculum topics, 6) Monitor time spent reading, 7) View detailed error analysis, 8) Generate reading progress reports.",
+        "keywords": ["teachers", "assign", "stories", "specific", "custom", "class"]
+      },
+      {
+        "question": "What research supports this approach?",
+        "answer": "Supported by: 1) Research on reading motivation and engagement, 2) Studies on comprehension strategy instruction, 3) Evidence for gradual release of responsibility model, 4) Research on adaptive text difficulty, 5) Studies on game-based reading improvement, 6) Evidence for culturally relevant text benefits.",
+        "keywords": ["research", "evidence", "support", "studies", "proven", "approach"]
+      },
+      {
+        "question": "How does it connect to classroom reading?",
+        "answer": "Classroom connection: 1) Aligns with standard comprehension objectives, 2) Provides supplemental practice, 3) Offers differentiated reading levels, 4) Supports specific skill development, 5) Prepares for standardized comprehension tests, 6) Builds transferable reading strategies, 7) Complements classroom instruction methods.",
+        "keywords": ["classroom", "connect", "school", "align", "curriculum", "education"]
+      }
+    ],
+
+    "spellingBeeGame": [
+      {
+        "question": "What is the Spelling Bee Game in LearnBridge Kids?",
+        "answer": "The Spelling Bee Game is a multilingual spelling practice tool that uses speech recognition technology to help children improve spelling accuracy. It presents words auditorily and visually, allows multiple response methods (typing, speaking, letter selection), provides immediate feedback, and adapts difficulty based on individual spelling patterns—all within a game format that makes spelling practice engaging.",
+        "keywords": ["spelling", "bee", "game", "what is", "explain", "spell"]
+      },
+      {
+        "question": "How does this game help dyslexic children with spelling?",
+        "answer": "Helps by: 1) Addressing common dyslexic spelling errors systematically, 2) Providing multisensory spelling practice, 3) Teaching spelling rules explicitly, 4) Building phonological awareness for spelling, 5) Developing visual memory of word patterns, 6) Reducing spelling anxiety through gamification, 7) Offering adaptive practice on weak areas.",
+        "keywords": ["help", "benefit", "assist", "dyslexic", "spelling", "support"]
+      },
+      {
+        "question": "What spelling approaches are used?",
+        "answer": "Approaches: 1) Phonics-based spelling (sound-letter patterns), 2) Morphological spelling (prefixes, roots, suffixes), 3) Visual spelling (whole word memorization), 4) Rule-based spelling (i before e, etc.), 5) Kinesthetic spelling (tracing, building), 6) Contextual spelling (words in sentences), 7) Error pattern targeting.",
+        "keywords": ["approaches", "methods", "strategies", "ways", "techniques", "spelling"]
+      },
+      {
+        "question": "How does speech recognition work in spelling?",
+        "answer": "Speech recognition: 1) Children speak spelled words aloud, 2) System transcribes their spelling, 3) Compares to correct spelling, 4) Provides feedback on accuracy, 5) Offers pronunciation correction if needed, 6) Adapts to speech patterns over time, 7) Allows verbal spelling for those with writing difficulties, 8) Builds connection between spoken and written word.",
+        "keywords": ["speech", "recognition", "voice", "speak", "microphone", "audio"]
+      },
+      {
+        "question": "What types of spelling activities are included?",
+        "answer": "Activities: 1) Traditional spelling bee format, 2) Missing letter completion, 3) Word building from phonemes, 4) Spell-check exercises, 5) Homophone discrimination, 6) Word family spelling, 7) Rule application practice, 8) Visual spelling memory games, 9) Dictation sentences, 10) Spelling in context passages.",
+        "keywords": ["activities", "types", "exercises", "games", "practice", "spelling"]
+      },
+      {
+        "question": "How are common dyslexic errors addressed?",
+        "answer": "Addresses: 1) Letter reversals (b/d, p/q) with visual cues, 2) Sequence errors through step spelling, 3) Phonetic spelling with phonics reinforcement, 4) Irregular words through multi-approach practice, 5) Morpheme errors with structural analysis, 6) Visual memory issues with repeated exposure, 7) Working memory limits with chunking strategies.",
+        "keywords": ["errors", "mistakes", "common", "dyslexic", "address", "correct"]
+      },
+      {
+        "question": "What feedback systems are in place?",
+        "answer": "Feedback: 1) Immediate correctness indication, 2) Visual demonstration of correct spelling, 3) Audio pronunciation reinforcement, 4) Rule explanation for errors, 5) Progress tracking with rewards, 6) Error pattern highlighting, 7) Strategy suggestions, 8) Encouragement for effort, 9) Mastery celebration animations.",
+        "keywords": ["feedback", "response", "correct", "incorrect", "answer", "result"]
+      },
+      {
+        "question": "How does Urdu spelling differ in the game?",
+        "answer": "Urdu specific: 1) Right-to-left spelling entry, 2) Connected letter forms consideration, 3) Diacritic mark inclusion, 4) Letter position forms (initial, medial, final), 5) Perso-Arabic script rules, 6) Loan word spelling patterns, 7) Pronunciation-spelling consistency focus, 8) Culturally appropriate word selection.",
+        "keywords": ["urdu", "spelling", "different", "arabic", "script", "right to left"]
+      },
+      {
+        "question": "What adaptive features does the spelling game have?",
+        "answer": "Adaptive features: 1) Adjusts word difficulty based on accuracy, 2) Focuses on persistent error patterns, 3) Customizes practice word selection, 4) Adjusts time limits, 5) Modifies hint frequency, 6) Creates personalized spelling lists, 7) Adapts response method preferences, 8) Tracks progress across multiple dimensions.",
+        "keywords": ["adaptive", "ai", "smart", "personalize", "adjust", "intelligent"]
+      },
+      {
+        "question": "How are spelling rules taught?",
+        "answer": "Rule teaching: 1) Explicit instruction before practice, 2) Multiple examples of each rule, 3) Visual rule reminders during practice, 4) Application in varied contexts, 5) Rule exception highlighting, 6) Mnemonic device suggestions, 7) Gradual introduction of complex rules, 8) Spaced repetition for retention.",
+        "keywords": ["rules", "teach", "instruction", "learn", "spelling", "patterns"]
+      },
+      {
+        "question": "What visual supports aid spelling?",
+        "answer": "Visual supports: 1) Color-coded letters by sound/pattern, 2) Word shape outlines, 3) Morphological segmentation visuals, 4) Letter formation animations, 5) Keyboard highlighting for typing, 6) Picture cues for word meaning, 7) Progress visualization, 8) Error pattern diagrams.",
+        "keywords": ["visual", "supports", "aids", "helps", "cues", "images"]
+      },
+      {
+        "question": "How does the game build spelling confidence?",
+        "answer": "Confidence building: 1) Starts with high-success rate words, 2) Celebrates small improvements, 3) No public failure situations, 4) Private practice environment, 5) Focus on progress not perfection, 6) Positive reinforcement language, 7) Mastery-based advancement, 8) Reduction of timed pressure initially.",
+        "keywords": ["confidence", "build", "self-esteem", "encourage", "motivate", "positive"]
+      },
+      {
+        "question": "Can parents create custom spelling lists?",
+        "answer": "Yes! Parent features: 1) Add words from school lists, 2) Create thematic word sets, 3) Target specific error patterns, 4) Set difficulty parameters, 5) Schedule spelling practice, 6) Monitor progress on custom lists, 7) Share lists with teachers, 8) Import/export word lists.",
+        "keywords": ["parents", "create", "custom", "lists", "words", "personal"]
+      },
+      {
+        "question": "What research supports spelling game effectiveness?",
+        "answer": "Supported by: 1) Studies on multisensory spelling instruction, 2) Research on phonological awareness for spelling, 3) Evidence for systematic phonics in spelling, 4) Studies on adaptive spelling practice, 5) Research on spelling motivation through games, 6) Evidence for error pattern targeting effectiveness.",
+        "keywords": ["research", "evidence", "support", "studies", "proven", "effective"]
+      },
+      {
+        "question": "How does spelling practice connect to writing?",
+        "answer": "Writing connection: 1) Transfers to written composition, 2) Builds automaticity for writing fluency, 3) Reduces cognitive load during writing, 4) Improves written communication clarity, 5) Supports editing and proofreading skills, 6) Connects to sentence construction practice, 7) Transfers to real-world writing tasks.",
+        "keywords": ["writing", "connect", "relate", "composition", "transfer", "skills"]
+      }
+    ],
+
+    "logicalMazeGame": [
+      {
+        "question": "What is the Logical Reasoning Maze game?",
+        "answer": "The Logical Reasoning Maze is a cognitive skills development game that focuses on executive functions often challenged in dyslexia. Through pattern recognition puzzles, sequence tasks, spatial reasoning challenges, and problem-solving mazes, it builds critical thinking skills that support overall learning and compensate for specific dyslexic difficulties.",
+        "keywords": ["logical", "reasoning", "maze", "game", "what is", "explain"]
+      },
+      {
+        "question": "Why include logical reasoning in a dyslexia platform?",
+        "answer": "Included because: 1) Dyslexia often coexists with executive function challenges, 2) Strong reasoning skills can compensate for reading difficulties, 3) Cognitive flexibility supports learning adaptation, 4) Working memory training benefits reading comprehension, 5) Problem-solving confidence transfers to academic challenges, 6) Many dyslexic individuals excel in visual-spatial reasoning.",
+        "keywords": ["why", "include", "reason", "purpose", "important", "dyslexia"]
+      },
+      {
+        "question": "What specific cognitive skills are targeted?",
+        "answer": "Targets: 1) Working memory, 2) Cognitive flexibility, 3) Inhibitory control, 4) Pattern recognition, 5) Sequential reasoning, 6) Spatial visualization, 7) Deductive reasoning, 8) Problem decomposition, 9) Strategy planning, 10) Mental rotation, 11) Attention shifting, 12) Processing speed.",
+        "keywords": ["cognitive", "skills", "targeted", "focus", "develop", "thinking"]
+      },
+      {
+        "question": "What types of puzzles are included?",
+        "answer": "Puzzle types: 1) Pattern completion sequences, 2) Logic grid puzzles, 3) Spatial rotation challenges, 4) Maze navigation with rules, 5) Categorization tasks, 6) Analogical reasoning, 7) Code breaking games, 8) Sudoku-like number patterns, 9) Visual memory matches, 10) Rule application challenges, 11) Tower of Hanoi variations, 12) Word logic puzzles.",
+        "keywords": ["puzzles", "types", "games", "activities", "challenges", "tasks"]
+      },
+      {
+        "question": "How does difficulty progress?",
+        "answer": "Progression: 1) Concrete → abstract reasoning, 2) Single-step → multi-step problems, 3) Visual → verbal-logical puzzles, 4) Fewer → more elements to consider, 5) Obvious → subtle patterns, 6) Unlimited → limited time, 7) With hints → independent solving, 8) Familiar → novel problem types.",
+        "keywords": ["difficulty", "progress", "levels", "stages", "advance", "harder"]
+      },
+      {
+        "question": "How are puzzles made dyslexia-friendly?",
+        "answer": "Dyslexia-friendly features: 1) Reduced verbal instructions, 2) Clear visual representations, 3) Extra processing time options, 4) Step-by-step task breakdown, 5) Minimal distracting elements, 6) Consistent puzzle formats, 7) Visual rule reminders, 8) Multiple solution approaches allowed, 9) Error recovery without penalty.",
+        "keywords": ["dyslexia friendly", "accessible", "suitable", "designed", "features", "considerate"]
+      },
+      {
+        "question": "What feedback do children receive?",
+        "answer": "Feedback: 1) Visual confirmation of correct solutions, 2) Strategy explanations for errors, 3) Alternative approach suggestions, 4) Progress tracking with cognitive skill profiles, 5) Reward systems for persistence, 6) Celebration of problem-solving creativity, 7) Time vs. accuracy balance feedback, 8) Cognitive strength highlighting.",
+        "keywords": ["feedback", "response", "correct", "incorrect", "answer", "result"]
+      },
+      {
+        "question": "How does the game build problem-solving confidence?",
+        "answer": "Confidence building: 1) Starts with highly solvable puzzles, 2) Teaches explicit problem-solving strategies, 3) Allows multiple attempts without penalty, 4) Celebrates effort as much as success, 5) Provides gradual scaffolded challenges, 6) Shows progress in specific skill areas, 7) Reduces anxiety through game format, 8) Focuses on process over product.",
+        "keywords": ["confidence", "build", "problem solving", "encourage", "motivate", "positive"]
+      },
+      {
+        "question": "What executive functions are developed?",
+        "answer": "Executive functions: 1) Working memory (holding information), 2) Cognitive flexibility (switching approaches), 3) Inhibitory control (ignoring distractions), 4) Planning and organization, 5) Task initiation, 6) Emotional regulation during challenge, 7) Metacognition (thinking about thinking), 8) Goal-directed persistence.",
+        "keywords": ["executive", "functions", "develop", "skills", "cognitive", "thinking"]
+      },
+      {
+        "question": "How does the game adapt to individual needs?",
+        "answer": "Adaptation: 1) Adjusts puzzle difficulty based on success, 2) Focuses on weaker cognitive areas, 3) Customizes hint timing and type, 4) Adapts time constraints, 5) Selects puzzle types based on profile, 6) Personalizes reinforcement schedule, 7) Creates individualized skill development paths, 8) Monitors frustration levels and adjusts.",
+        "keywords": ["adapt", "individual", "personalize", "needs", "customize", "adjust"]
+      },
+      {
+        "question": "What visual-spatial activities are included?",
+        "answer": "Visual-spatial: 1) Mental rotation tasks, 2) Pattern visualization, 3) Spatial memory games, 4) Maze navigation, 5) Block design challenges, 6) Symmetry recognition, 7) Perspective taking exercises, 8) Map reading tasks, 9) 3D shape manipulation, 10) Visual sequencing puzzles.",
+        "keywords": ["visual", "spatial", "activities", "games", "puzzles", "tasks"]
+      },
+      {
+        "question": "How does this connect to reading skills?",
+        "answer": "Reading connection: 1) Working memory supports text comprehension, 2) Pattern recognition aids word recognition, 3) Sequential reasoning helps with story structure, 4) Cognitive flexibility supports reading strategy use, 5) Visual processing relates to letter/word recognition, 6) Problem-solving transfers to comprehension challenges, 7) Attention control benefits reading focus.",
+        "keywords": ["reading", "connect", "relate", "skills", "transfer", "support"]
+      },
+      {
+        "question": "What research supports cognitive training for dyslexia?",
+        "answer": "Supported by: 1) Studies on executive function deficits in dyslexia, 2) Research on working memory training transfer effects, 3) Evidence for cognitive flexibility in reading, 4) Studies on visual-spatial strengths in dyslexia, 5) Research on problem-solving as compensatory strategy, 6) Evidence for cognitive training improving academic outcomes.",
+        "keywords": ["research", "evidence", "support", "studies", "proven", "effective"]
+      },
+      {
+        "question": "Can therapists use maze game data?",
+        "answer": "Yes! Therapist data: 1) Detailed cognitive skill profiles, 2) Progress in specific executive functions, 3) Problem-solving strategy analysis, 4) Frustration tolerance indicators, 5) Comparison with age norms, 6) Exportable reports for assessments, 7) Recommendations for cognitive interventions, 8) Progress monitoring for therapy goals.",
+        "keywords": ["therapists", "data", "use", "clinical", "therapy", "assessment"]
+      },
+      {
+        "question": "How does the game make thinking fun?",
+        "answer": "Fun elements: 1) Adventure theme with story progression, 2) Puzzle variety to maintain interest, 3) Character avatars that level up, 4) Unlockable puzzle worlds, 5) Creative solution celebration, 6) Collaborative puzzles with virtual characters, 7) Mystery-solving narratives, 8) Visual rewards for complex thinking, 9) Humorous feedback, 10) Surprise puzzle elements.",
+        "keywords": ["fun", "enjoyable", "engaging", "interesting", "motivating", "game"]
+      }
+    ],
+
+    "mathQuestGame": [
+      {
+        "question": "What is the Math Quest Game?",
+        "answer": "The Math Quest Game is a mathematics learning adventure that makes arithmetic and problem-solving engaging for dyslexic children. Through interactive math challenges, word problems, and puzzles, it builds numerical fluency, mathematical reasoning, and application skills—presented in dyslexia-friendly formats with multiple supports and adaptive difficulty.",
+        "keywords": ["math", "quest", "game", "mathematics", "arithmetic", "numbers"]
+      },
+      {
+        "question": "Why include math in a dyslexia platform?",
+        "answer": "Math inclusion because: 1) Many dyslexic children struggle with math due to working memory, sequencing, or language processing issues, 2) Math anxiety often accompanies reading difficulties, 3) Strong math skills provide alternative success pathways, 4) Mathematical reasoning supports overall cognitive development, 5) Real-world math application is essential life skill, 6) Integrated approach addresses whole child development.",
+        "keywords": ["why", "include", "math", "reason", "important", "dyslexia"]
+      },
+      {
+        "question": "What math skills are covered?",
+        "answer": "Skills covered: 1) Number sense and counting, 2) Basic operations (+, -, ×, ÷), 3) Place value understanding, 4) Fractions and decimals introduction, 5) Measurement concepts, 6) Geometry basics, 7) Pattern recognition, 8) Word problem solving, 9) Mathematical reasoning, 10) Estimation skills, 11) Time and money concepts, 12) Data interpretation basics.",
+        "keywords": ["math", "skills", "covered", "taught", "learn", "mathematics"]
+      },
+      {
+        "question": "How are math concepts made dyslexia-friendly?",
+        "answer": "Dyslexia-friendly features: 1) Visual representations of numbers, 2) Manipulative virtual tools, 3) Step-by-step problem breakdown, 4) Reduced language load in word problems, 5) Multiple solution methods shown, 6) Color-coded operation symbols, 7) Consistent problem formats, 8) Extra processing time options, 9) Audio support for numbers/instructions, 10) Visual memory aids for math facts.",
+        "keywords": ["dyslexia friendly", "accessible", "math", "numbers", "design", "features"]
+      },
+      {
+        "question": "What types of math activities are included?",
+        "answer": "Activities: 1) Number line adventures, 2) Virtual manipulatives (blocks, counters), 3) Pattern completion games, 4) Equation balancing puzzles, 5) Measurement challenges, 6) Shape identification and construction, 7) Word problem adventures, 8) Math fact practice games, 9) Estimation challenges, 10) Real-world application scenarios, 11) Time-telling missions, 12) Money calculation tasks.",
+        "keywords": ["activities", "games", "types", "math", "puzzles", "challenges"]
+      },
+      {
+        "question": "How does the game handle math anxiety?",
+        "answer": "Anxiety reduction: 1) Non-judgmental error correction, 2) Multiple attempt opportunities, 3) Celebration of effort not just accuracy, 4) Gradual exposure to challenging concepts, 5) Anxiety monitoring through game metrics, 6) Calming visual environments, 7) Success-oriented progression, 8) Reduced time pressure initially, 9) Positive reinforcement language, 10) Math as adventure not test.",
+        "keywords": ["anxiety", "math", "reduce", "handle", "support", "emotional"]
+      },
+      {
+        "question": "What visual supports help with math?",
+        "answer": "Visual supports: 1) Number lines with movement, 2) Base-ten block representations, 3) Fraction pie/bar models, 4) Geometric shape manipulatives, 5) Color-coded place value charts, 6) Step-by-step visual algorithms, 7) Word problem picture representations, 8) Measurement tool visuals, 9) Pattern visualization tools, 10) Progress tracking charts.",
+        "keywords": ["visual", "supports", "helps", "math", "numbers", "images"]
+      },
+      {
+        "question": "How does adaptive difficulty work in math?",
+        "answer": "Adaptive features: 1) Adjusts operation complexity based on accuracy, 2) Personalizes word problem language load, 3) Customizes number size in calculations, 4) Adapts hint frequency and type, 5) Creates individualized skill practice sequences, 6) Monitors specific error patterns for targeting, 7) Adjusts time constraints based on needs, 8) Balances challenge and success rate.",
+        "keywords": ["adaptive", "difficulty", "math", "personalize", "adjust", "ai"]
+      },
+      {
+        "question": "What feedback systems are used?",
+        "answer": "Feedback: 1) Immediate answer correctness with visual cues, 2) Step-by-step solution demonstrations, 3) Strategy explanation for errors, 4) Alternative method suggestions, 5) Progress tracking with skill mastery indicators, 6) Reward systems for persistence, 7) Encouragement for mathematical thinking, 8) Conceptual understanding checks, 9) Time vs. accuracy balance feedback.",
+        "keywords": ["feedback", "response", "correct", "incorrect", "answer", "math"]
+      },
+      {
+        "question": "How are word problems made accessible?",
+        "answer": "Word problem accessibility: 1) Simplified language structures, 2) Picture supports for context, 3) Step-by-step question breakdown, 4) Vocabulary support for math terms, 5) Multiple representation options (equation, picture, words), 6) Gradual introduction of complexity, 7) Real-world relevance emphasis, 8) Audio read-aloud option, 9) Interactive elements within problems.",
+        "keywords": ["word problems", "accessible", "math", "language", "reading", "support"]
+      },
+      {
+        "question": "What research supports math game approach?",
+        "answer": "Supported by: 1) Studies on math difficulties in dyslexia, 2) Research on visual-spatial math approaches, 3) Evidence for game-based math learning, 4) Studies on math anxiety reduction strategies, 5) Research on adaptive math instruction, 6) Evidence for multisensory math learning, 7) Studies on conceptual vs. procedural balance.",
+        "keywords": ["research", "evidence", "support", "studies", "math", "approach"]
+      },
+      {
+        "question": "How does math connect to real-world skills?",
+        "answer": "Real-world connections: 1) Shopping and money calculations, 2) Time management applications, 3) Measurement in cooking/building, 4) Data interpretation from graphs, 5) Pattern recognition in daily life, 6) Estimation for practical decisions, 7) Problem-solving in various contexts, 8) Financial literacy foundations, 9) Spatial reasoning applications.",
+        "keywords": ["real world", "practical", "applications", "skills", "math", "life"]
+      },
+      {
+        "question": "Can parents track math progress?",
+        "answer": "Yes! Parent tracking: 1) Skill mastery by math domain, 2) Error pattern analysis, 3) Progress over time charts, 4) Comparison with grade-level expectations, 5) Time spent on different math areas, 6) Anxiety/engagement indicators, 7) Recommendations for supplemental practice, 8) Exportable progress reports, 9) Custom goal setting and tracking.",
+        "keywords": ["parents", "track", "progress", "math", "monitor", "see"]
+      },
+      {
+        "question": "How are number facts practiced?",
+        "answer": "Number fact practice: 1) Game-based drills with rewards, 2) Visual memory strategies, 3) Pattern recognition approaches, 4) Strategy-based learning (doubles, near doubles), 5) Spaced repetition scheduling, 6) Multiple representation practice (dots, arrays, numbers), 7) Application in game contexts, 8) Progress tracking with mastery goals, 9) Reduced anxiety through game format.",
+        "keywords": ["number facts", "practice", "math", "facts", "drills", "memorization"]
+      },
+      {
+        "question": "What makes math learning engaging?",
+        "answer": "Engagement elements: 1) Adventure storyline with math challenges, 2) Character progression with math success, 3) Variety of game formats, 4) Immediate feedback and rewards, 5) Creative problem-solving opportunities, 6) Unlockable math worlds, 7) Collaborative puzzles, 8) Real-world relevance scenarios, 9) Visual appeal and animations, 10) Sense of mathematical discovery.",
+        "keywords": ["engaging", "fun", "interesting", "math", "learning", "motivating"]
+      }
+    ],
+
+    "sentenceConstructionGame": [
+      {
+        "question": "What is the Sentence Construction Game?",
+        "answer": "The Sentence Construction Game helps dyslexic children build grammatical understanding and writing skills through interactive sentence building. Children manipulate word tiles to create grammatically correct sentences, learn syntax rules, practice punctuation, and develop writing fluency—all within a game format that makes grammar practice engaging and accessible.",
+        "keywords": ["sentence", "construction", "game", "grammar", "writing", "syntax"]
+      },
+      {
+        "question": "How does this game help with writing difficulties?",
+        "answer": "Helps by: 1) Breaking writing into manageable parts, 2) Teaching sentence structure explicitly, 3) Reducing anxiety about writing errors, 4) Building automaticity in sentence formation, 5) Developing grammatical intuition through practice, 6) Connecting spoken and written language, 7) Providing immediate corrective feedback, 8) Making grammar rules concrete through manipulation.",
+        "keywords": ["help", "benefit", "writing", "difficulties", "support", "improve"]
+      },
+      {
+        "question": "What grammar concepts are covered?",
+        "answer": "Concepts: 1) Subject-verb agreement, 2) Sentence types (declarative, interrogative, etc.), 3) Parts of speech identification, 4) Basic punctuation, 5) Word order in Urdu/English, 6) Tense consistency, 7) Pronoun usage, 8) Adjective/noun agreement, 9) Conjunction use, 10) Prepositional phrases, 11) Sentence combining, 12) Paragraph structure basics.",
+        "keywords": ["grammar", "concepts", "covered", "taught", "syntax", "rules"]
+      },
+      {
+        "question": "How are sentences made dyslexia-friendly?",
+        "answer": "Dyslexia-friendly features: 1) Color-coded parts of speech, 2) Visual sentence diagrams, 3) Drag-and-drop word manipulation, 4) Audio support for reading sentences, 5) Reduced working memory load through chunking, 6) Consistent visual formatting, 7) Step-by-step sentence building, 8) Multiple representation options, 9) Error highlighting with explanations, 10) Adjustable complexity levels.",
+        "keywords": ["dyslexia friendly", "accessible", "sentences", "writing", "design", "features"]
+      },
+      {
+        "question": "What types of sentence activities are included?",
+        "answer": "Activities: 1) Word tile arrangement to form sentences, 2) Missing word completion, 3) Sentence correction exercises, 4) Sentence expansion challenges, 5) Picture-to-sentence matching, 6) Question formation practice, 7) Sentence combining games, 8) Paragraph building from sentences, 9) Tense transformation practice, 10) Translation between Urdu/English sentences.",
+        "keywords": ["activities", "types", "sentence", "games", "exercises", "tasks"]
+      },
+      {
+        "question": "How does the game handle Urdu sentence structure?",
+        "answer": "Urdu specific: 1) Right-to-left word arrangement, 2) Verb-final sentence structure focus, 3) Postposition (حروف جر) usage, 4) Gender/number agreement rules, 5) Complex verb conjugation practice, 6) Perso-Arabic script considerations, 7) Culturally appropriate sentence examples, 8) Translation equivalence awareness, 9) Urdu-specific punctuation rules, 10) Poetry/proverb sentence analysis.",
+        "keywords": ["urdu", "sentence", "structure", "arabic", "script", "language"]
+      },
+      {
+        "question": "What feedback helps grammar learning?",
+        "answer": "Feedback: 1) Immediate correctness indication with visual cues, 2) Rule explanation for errors, 3) Multiple correct sentence options shown, 4) Progress tracking with grammar skill mastery, 5) Encouragement for creative sentence construction, 6) Comparison with model sentences, 7) Audio reading of correct sentences, 8) Suggestion of alternative constructions, 9) Celebration of complex sentence attempts.",
+        "keywords": ["feedback", "grammar", "learning", "correct", "incorrect", "response"]
+      },
+      {
+        "question": "How does adaptive difficulty work?",
+        "answer": "Adaptive features: 1) Adjusts sentence complexity based on success, 2) Personalizes grammar rule introduction sequence, 3) Customizes word bank size and difficulty, 4) Adapts hint frequency and type, 5) Focuses on persistent error patterns, 6) Creates personalized sentence practice sets, 7) Adjusts time constraints based on needs, 8) Balances novelty and repetition for learning.",
+        "keywords": ["adaptive", "difficulty", "personalize", "adjust", "ai", "smart"]
+      },
+      {
+        "question": "What visual supports aid sentence construction?",
+        "answer": "Visual supports: 1) Color-coded word tiles by part of speech, 2) Sentence diagram templates, 3) Picture prompts for sentence creation, 4) Word bank organization systems, 5) Animation showing sentence flow, 6) Punctuation visual guides, 7) Subject-verb connection lines, 8) Tense timeline visualizations, 9) Paragraph structure diagrams, 10) Progress visualization charts.",
+        "keywords": ["visual", "supports", "aids", "sentence", "construction", "helps"]
+      },
+      {
+        "question": "How does the game build writing confidence?",
+        "answer": "Confidence building: 1) Starts with highly achievable sentence tasks, 2) Celebrates small writing successes, 3) Provides multiple support levels, 4) Focuses on progress not perfection, 5) Reduces fear of errors through game format, 6) Shows improvement over time visually, 7) Encourages creative expression within structure, 8) Transfers skills to authentic writing gradually.",
+        "keywords": ["confidence", "writing", "build", "self-esteem", "encourage", "motivate"]
+      },
+      {
+        "question": "What research supports this approach?",
+        "answer": "Supported by: 1) Studies on sentence combining effectiveness, 2) Research on explicit grammar instruction for dyslexia, 3) Evidence for visual-syntactic approaches, 4) Studies on writing anxiety reduction, 5) Research on game-based writing motivation, 6) Evidence for bilingual sentence structure transfer, 7) Studies on working memory in writing.",
+        "keywords": ["research", "evidence", "support", "studies", "approach", "effective"]
+      },
+      {
+        "question": "How does it connect to paragraph writing?",
+        "answer": "Paragraph connection: 1) Teaches topic sentence development, 2) Practices supporting detail addition, 3) Introduces transition words between sentences, 4) Builds cohesive paragraph structure, 5) Develops paragraph planning skills, 6) Connects sentence variety to paragraph quality, 7) Provides paragraph building games, 8) Transfers skills to multi-paragraph writing.",
+        "keywords": ["paragraph", "writing", "connect", "relate", "skills", "composition"]
+      },
+      {
+        "question": "Can children create their own sentences?",
+        "answer": "Yes! Creative features: 1) Free-form sentence construction mode, 2) Picture prompt sentence creation, 3) Story starter sentence expansion, 4) Personal experience sentence writing, 5) Vocabulary word sentence challenges, 6) Sentence illustration options, 7) Sharing sentences with parent/teacher feedback, 8) Sentence collection portfolios.",
+        "keywords": ["create", "own", "sentences", "creative", "personal", "writing"]
+      },
+      {
+        "question": "How are punctuation rules taught?",
+        "answer": "Punctuation teaching: 1) Visual punctuation character introductions, 2) Function explanation with examples, 3) Interactive placement practice, 4) Error correction exercises, 5) Punctuation in context activities, 6) Progressive introduction of rules, 7) Multisensory punctuation activities, 8) Game-based punctuation challenges, 9) Real-world punctuation application.",
+        "keywords": ["punctuation", "rules", "taught", "teach", "learn", "grammar"]
+      },
+      {
+        "question": "What makes grammar learning engaging?",
+        "answer": "Engagement elements: 1) Puzzle-like sentence building, 2) Story-based grammar adventures, 3) Character dialogue creation, 4) Mystery sentence decoding, 5) Creative writing challenges, 6) Sentence construction competitions, 7) Unlockable grammar worlds, 8) Humorous sentence examples, 9) Real-world writing applications, 10) Progress-based rewards.",
+        "keywords": ["engaging", "fun", "interesting", "grammar", "learning", "motivating"]
+      }
+    ],
+
+    "chatbotPractice": [
+      {
+        "question": "What is the Real-Time Chat Bot for Practice?",
+        "answer": "The Real-Time Chat Bot is an AI-powered conversational practice tool that allows children to practice language skills through natural conversations. It provides a safe, judgment-free environment for practicing grammar, vocabulary, pronunciation, and conversational skills in both Urdu and English, with immediate feedback and adaptive responses.",
+        "keywords": ["chat bot", "chatbot", "practice", "conversation", "ai", "speak"]
+      },
+      {
+        "question": "How does the chatbot help language development?",
+        "answer": "Helps by: 1) Providing unlimited conversational practice, 2) Offering immediate corrective feedback, 3) Reducing anxiety about speaking errors, 4) Building conversational fluency, 5) Expanding vocabulary in context, 6) Practicing grammatical structures naturally, 7) Developing listening comprehension, 8) Building confidence in verbal expression.",
+        "keywords": ["help", "benefit", "language", "development", "support", "improve"]
+      },
+      {
+        "question": "What conversation topics are available?",
+        "answer": "Topics: 1) Daily routines and activities, 2) Family and friends, 3) School and learning, 4) Hobbies and interests, 5) Stories and imagination, 6) Cultural topics and traditions, 7) Problem-solving scenarios, 8) Emotional expression, 9) Future plans and dreams, 10) Review of learned vocabulary, 11) Current events (age-appropriate), 12) Creative storytelling.",
+        "keywords": ["topics", "conversation", "chat", "discussion", "subjects", "themes"]
+      },
+      {
+        "question": "How does speech recognition work in the chatbot?",
+        "answer": "Speech recognition: 1) Converts child's speech to text, 2) Analyzes for grammar/vocabulary accuracy, 3) Provides corrective feedback if needed, 4) Adapts response complexity based on child's level, 5) Tracks pronunciation improvement, 6) Allows typing alternative for shy speakers, 7) Supports both Urdu and English recognition, 8) Learns individual speech patterns over time.",
+        "keywords": ["speech", "recognition", "voice", "speak", "microphone", "audio"]
+      },
+      {
+        "question": "What feedback does the chatbot provide?",
+        "answer": "Feedback: 1) Grammar correction with explanations, 2) Vocabulary expansion suggestions, 3) Pronunciation guidance, 4) Conversation strategy tips, 5) Encouragement for communication attempts, 6) Cultural/language nuance pointers, 7) Progress tracking in conversation skills, 8) Positive reinforcement for improvement, 9) Suggested response alternatives.",
+        "keywords": ["feedback", "response", "chatbot", "correct", "guide", "help"]
+      },
+      {
+        "question": "How is the chatbot made child-friendly?",
+        "answer": "Child-friendly features: 1) Friendly, non-judgmental persona, 2) Age-appropriate language, 3) Visual avatar with expressions, 4) Safe, monitored conversation boundaries, 5) Positive reinforcement emphasis, 6) Humor and engagement elements, 7) Clear conversation guidelines, 8) Parental controls and monitoring, 9) Educational focus maintained.",
+        "keywords": ["child friendly", "safe", "appropriate", "design", "features", "kids"]
+      },
+      {
+        "question": "What language skills does it practice?",
+        "answer": "Skills practiced: 1) Conversational turn-taking, 2) Question formation and answering, 3) Vocabulary usage in context, 4) Grammatical structure application, 5) Pronunciation and articulation, 6) Listening comprehension, 7) Narrative skills (telling stories), 8) Persuasive language, 9) Descriptive language, 10) Social language conventions.",
+        "keywords": ["language", "skills", "practice", "develop", "conversation", "speaking"]
+      },
+      {
+        "question": "How does it handle Urdu conversations?",
+        "answer": "Urdu specific: 1) Proper Urdu script display, 2) Culturally appropriate conversation topics, 3) Urdu grammar rule reinforcement, 4) Pronunciation of Urdu-specific sounds, 5) Formality level adjustment (آپ vs تم), 6) Urdu idioms and expressions, 7) Cultural reference understanding, 8) Code-switching support if needed, 9) Urdu poetry/proverb incorporation.",
+        "keywords": ["urdu", "conversation", "chat", "arabic", "language", "cultural"]
+      },
+      {
+        "question": "What adaptive features does the chatbot have?",
+        "answer": "Adaptive features: 1) Adjusts conversation complexity based on performance, 2) Personalizes vocabulary introduction, 3) Focuses on weaker language areas, 4) Adapts feedback frequency and type, 5) Creates personalized practice scenarios, 6) Monitors conversation comfort levels, 7) Adjusts speaking vs. typing balance, 8) Tracks progress across multiple dimensions.",
+        "keywords": ["adaptive", "ai", "smart", "personalize", "adjust", "intelligent"]
+      },
+      {
+        "question": "How does it build speaking confidence?",
+        "answer": "Confidence building: 1) Non-judgmental error correction, 2) Celebration of communication attempts, 3) Gradual increase in challenge, 4) Safe practice environment, 5) Focus on message over perfection, 6) Positive reinforcement language, 7) Progress visualization, 8) Reduced anxiety through game-like interface, 9) Transfer to real conversations encouraged.",
+        "keywords": ["confidence", "speaking", "build", "self-esteem", "encourage", "motivate"]
+      },
+      {
+        "question": "Can parents monitor chatbot conversations?",
+        "answer": "Yes! Parent monitoring: 1) Conversation history access, 2) Progress reports on language skills, 3) Error pattern analysis, 4) Time spent practicing, 5) Conversation topic preferences, 6) Customizable conversation boundaries, 7) Exportable conversation samples, 8) Recommendations for real-world practice, 9) Privacy-protected monitoring.",
+        "keywords": ["parents", "monitor", "chat", "conversations", "see", "track"]
+      },
+      {
+        "question": "What research supports chatbot language practice?",
+        "answer": "Supported by: 1) Studies on conversational practice for language learning, 2) Research on AI tutors for language development, 3) Evidence for low-anxiety speaking practice, 4) Studies on corrective feedback timing, 5) Research on personalized language instruction, 6) Evidence for game-based conversation practice, 7) Studies on bilingual conversation development.",
+        "keywords": ["research", "evidence", "support", "studies", "chatbot", "effective"]
+      },
+      {
+        "question": "How does it connect to real conversations?",
+        "answer": "Real conversation connection: 1) Practices common social scenarios, 2) Builds transferable conversation skills, 3) Reduces anxiety for real interactions, 4) Provides strategies for various situations, 5) Encourages application with family/friends, 6) Bridges to classroom participation, 7) Supports social skill development, 8) Prepares for real-world communication.",
+        "keywords": ["real", "conversations", "connect", "practice", "transfer", "skills"]
+      },
+      {
+        "question": "What safety features are included?",
+        "answer": "Safety features: 1) Monitored conversation boundaries, 2) No personal information sharing, 3) Age-appropriate content filtering, 4) Parental controls and oversight, 5) Educational focus maintenance, 6) Privacy protection measures, 7) Inappropriate content detection, 8) Safe exit options, 9) Reporting mechanisms for concerns.",
+        "keywords": ["safety", "secure", "protected", "child", "parental", "controls"]
+      },
+      {
+        "question": "What makes chatbot practice engaging?",
+        "answer": "Engagement elements: 1) Interactive conversation flow, 2) Game-like rewards for participation, 3) Variety of conversation topics, 4) Visual avatar with expressions, 5) Humorous responses when appropriate, 6) Story-based conversation adventures, 7) Unlockable conversation scenarios, 8) Personalization based on interests, 9) Progress tracking with rewards.",
+        "keywords": ["engaging", "fun", "interesting", "chatbot", "practice", "motivating"]
+      }
+    ],
+
+    "eBookModule": [
+      {
+        "question": "What is the E-Book Module?",
+        "answer": "The E-Book Module is a customizable digital reading platform within LearnBridge Kids that provides access to a library of dyslexia-friendly books in Urdu and English. It includes comprehensive accessibility features, text-to-speech support, progress tracking, and personalized reading experiences tailored to each child's needs and preferences.",
+        "keywords": ["e-book", "ebook", "module", "reading", "books", "digital"]
+      },
+      {
+        "question": "How does the e-book reader help dyslexic readers?",
+        "answer": "Helps by: 1) Providing adjustable text for visual comfort, 2) Offering text-to-speech support for decoding assistance, 3) Reducing reading anxiety through customizable settings, 4) Building reading stamina with appropriate challenge levels, 5) Offering immediate word support, 6) Tracking progress to show improvement, 7) Making reading enjoyable through accessible format.",
+        "keywords": ["help", "benefit", "dyslexic", "readers", "support", "improve"]
+      },
+      {
+        "question": "What customization options are available?",
+        "answer": "Customization: 1) Font type (OpenDyslexic, Lexend, etc.), 2) Font size (16-32pt range), 3) Line spacing (1.0-2.5x), 4) Letter spacing adjustments, 5) Background colors (cream, blue, green, etc.), 6) Text color options, 7) Text-to-speech speed control, 8) Highlighting options (line, word, sentence), 9) Page layout choices, 10) Reading mode preferences.",
+        "keywords": ["customization", "options", "settings", "adjust", "personalize", "fonts"]
+      },
+      {
+        "question": "What types of books are in the library?",
+        "answer": "Book types: 1) Original dyslexia-friendly stories, 2) Adapted classic children's literature, 3) Non-fiction informational texts, 4) Poetry and rhyme collections, 5) Cultural stories from Pakistan, 6) Bilingual books (Urdu/English), 7) Thematic book collections, 8) Grade-level appropriate selections, 9) High-interest/low-reading-level books, 10) Interactive picture books.",
+        "keywords": ["books", "types", "library", "stories", "texts", "reading"]
+      },
+      {
+        "question": "How does text-to-speech work in e-books?",
+        "answer": "Text-to-speech features: 1) Whole page or selected text reading, 2) Natural-sounding Urdu/English voices, 3) Adjustable reading speed, 4) Word highlighting as read, 5) Pronunciation customization options, 6) Voice gender/age selection, 7) Pause/play/repeat controls, 8) Pronunciation learning from corrections, 9) Multisensory reading experience.",
+        "keywords": ["text to speech", "tts", "read aloud", "audio", "speak", "voice"]
+      },
+      {
+        "question": "What reading supports are provided?",
+        "answer": "Reading supports: 1) Click-to-hear word pronunciation, 2) Word definition on demand, 3) Picture support for vocabulary, 4) Reading comprehension questions, 5) Summarization tools, 6) Reading pace tracking, 7) Break suggestions to prevent fatigue, 8) Reading strategy prompts, 9) Vocabulary list generation, 10) Translation support for bilingual reading.",
+        "keywords": ["supports", "helps", "reading", "assistance", "tools", "features"]
+      },
+      {
+        "question": "How is progress tracked in reading?",
+        "answer": "Progress tracking: 1) Books completed, 2) Time spent reading, 3) Words looked up/pronounced, 4) Comprehension question accuracy, 5) Reading speed trends, 6) Customization preference patterns, 7) Reading engagement levels, 8) Vocabulary growth indicators, 9) Reading stamina improvements, 10) Exportable reading logs.",
+        "keywords": ["progress", "track", "reading", "monitor", "data", "metrics"]
+      },
+      {
+        "question": "How are Urdu books specially formatted?",
+        "answer": "Urdu formatting: 1) Proper Nastaliq script rendering, 2) Right-to-left page layout, 3) Appropriate diacritic marks, 4) Culturally relevant content, 5) Age-appropriate vocabulary, 6) Urdu-specific reading supports, 7) Bilingual glossary options, 8) Cultural context explanations, 9) Urdu poetry formatting, 10) Script-specific accessibility features.",
+        "keywords": ["urdu", "books", "formatting", "arabic", "script", "right to left"]
+      },
+      {
+        "question": "What adaptive features does the module have?",
+        "answer": "Adaptive features: 1) Recommends books based on reading level, 2) Adjusts text complexity gradually, 3) Personalizes support frequency, 4) Suggests reading goals based on progress, 5) Creates personalized reading pathways, 6) Adapts based on engagement patterns, 7) Balances challenge and accessibility, 8) Tracks preferences for better recommendations.",
+        "keywords": ["adaptive", "ai", "smart", "personalize", "recommend", "suggest"]
+      },
+      {
+        "question": "How does it build reading confidence?",
+        "answer": "Confidence building: 1) Success-oriented book selection, 2) Celebration of reading milestones, 3) Non-judgmental support usage, 4) Focus on enjoyment over perfection, 5) Visible progress tracking, 6) Positive reinforcement for effort, 7) Gradual challenge increase, 8) Transfer to independent reading encouragement, 9) Reading community features.",
+        "keywords": ["confidence", "reading", "build", "self-esteem", "encourage", "motivate"]
+      },
+      {
+        "question": "Can parents monitor reading activity?",
+        "answer": "Yes! Parent monitoring: 1) Reading time reports, 2) Book completion tracking, 3) Support usage patterns, 4) Comprehension progress, 5) Reading preference insights, 6) Custom reading goal setting, 7) Progress comparison with goals, 8) Reading habit formation support, 9) Recommendations for home reading, 10) Exportable reading reports.",
+        "keywords": ["parents", "monitor", "reading", "activity", "track", "see"]
+      },
+      {
+        "question": "What research supports e-book approaches for dyslexia?",
+        "answer": "Supported by: 1) Studies on customizable text benefits, 2) Research on text-to-speech effectiveness, 3) Evidence for reduced reading anxiety with supports, 4) Studies on digital reading engagement, 5) Research on multisensory reading approaches, 6) Evidence for personalized reading pathways, 7) Studies on reading motivation through technology.",
+        "keywords": ["research", "evidence", "support", "studies", "e-book", "effective"]
+      },
+      {
+        "question": "How does it connect to classroom reading?",
+        "answer": "Classroom connection: 1) Aligns with curriculum reading levels, 2) Provides supplemental reading practice, 3) Supports classroom reading assignments, 4) Offers differentiated reading materials, 5) Builds transferable reading skills, 6) Prepares for standardized reading assessments, 7) Complements classroom instruction methods, 8) Provides data for reading interventions.",
+        "keywords": ["classroom", "connect", "school", "reading", "align", "curriculum"]
+      },
+      {
+        "question": "Can teachers assign specific books?",
+        "answer": "Yes! Teacher features: 1) Book assignment to individuals/groups, 2) Reading goal setting, 3) Comprehension question creation, 4) Reading progress monitoring, 5) Class reading reports, 6) Custom reading lists creation, 7) Reading group management, 8) Integration with lesson plans, 9) Reading assessment tools, 10) Parent communication about reading.",
+        "keywords": ["teachers", "assign", "books", "reading", "class", "students"]
+      },
+      {
+        "question": "What makes the e-book module engaging?",
+        "answer": "Engagement elements: 1) Interactive book features, 2) Achievement systems for reading, 3) Book recommendation algorithms, 4) Reading challenge events, 5) Virtual reading buddies, 6) Book discussion features, 7) Author visit virtual events, 8) Reading theme months, 9) Progress visualization, 10) Social reading features (with safety).",
+        "keywords": ["engaging", "fun", "interesting", "e-book", "reading", "motivating"]
+      }
+    ],
+
+    "parentDashboard": [
+      {
+        "question": "What is the Parental Dashboard?",
+        "answer": "The Parental Dashboard is a comprehensive monitoring and management interface that allows parents/guardians to track their child's progress across all LearnBridge Kids activities. It provides real-time insights, performance analytics, goal setting tools, communication features, and personalized recommendations to support their child's learning journey.",
+        "keywords": ["parent", "dashboard", "monitor", "track", "progress", "interface"]
+      },
+      {
+        "question": "What can parents see in the dashboard?",
+        "answer": "Parents can see: 1) Daily/weekly activity summaries, 2) Skill mastery progress charts, 3) Time spent on different activities, 4) Strengths and weaknesses analysis, 5) Achievement badges and milestones, 6) Comparison with learning goals, 7) Emotional engagement indicators, 8) Recommendations for support, 9) Communication from teachers/therapists, 10) Custom reports and exports.",
+        "keywords": ["see", "view", "monitor", "track", "information", "data"]
+      },
+      {
+        "question": "How detailed are the progress reports?",
+        "answer": "Reports include: 1) Skill-by-skill breakdown with percentages, 2) Trend analysis over weeks/months, 3) Comparison with age/grade benchmarks, 4) Specific error pattern identification, 5) Time distribution across learning areas, 6) Engagement level metrics, 7) Goal progress tracking, 8) Customizable report formats, 9) Export options (PDF, CSV), 10) Actionable insights summaries.",
+        "keywords": ["reports", "detailed", "information", "data", "analysis", "progress"]
+      },
+      {
+        "question": "Can parents set learning goals?",
+        "answer": "Yes! Goal features: 1) Custom goal creation for specific skills, 2) Time-based goal setting (daily/weekly), 3) Mastery level goal definitions, 4) Goal progress tracking, 5) Reminder and notification settings, 6) Celebration of goal achievement, 7) Adjustment of goals based on progress, 8) Sharing goals with teachers/therapists, 9) Historical goal tracking, 10) Recommended goal suggestions.",
+        "keywords": ["goals", "set", "learning", "targets", "objectives", "aims"]
+      },
+      {
+        "question": "How does the dashboard help with intervention?",
+        "answer": "Intervention support: 1) Identifies specific areas needing attention, 2) Provides evidence for specialist consultations, 3) Tracks response to different strategies, 4) Monitors progress toward intervention goals, 5) Generates reports for IEP meetings, 6) Suggests evidence-based activities, 7) Tracks consistency of practice, 8) Provides data for therapy adjustments, 9) Monitors emotional response to interventions.",
+        "keywords": ["intervention", "support", "help", "therapy", "special", "needs"]
+      },
+      {
+        "question": "What communication features are included?",
+        "answer": "Communication: 1) Messaging with teachers/therapists, 2) Progress sharing with specialists, 3) Meeting scheduling tools, 4) Note-taking for observations, 5) File sharing for reports, 6) Notification system for updates, 7) Discussion forums with other parents, 8) Video consultation scheduling, 9) Progress update templates, 10) Multi-language communication support.",
+        "keywords": ["communication", "message", "contact", "talk", "share", "discuss"]
+      },
+      {
+        "question": "How real-time is the dashboard data?",
+        "answer": "Data updates: 1) Activity completion updates within seconds, 2) Progress charts refresh within minutes, 3) Daily summaries available by morning, 4) Weekly trends calculated each Sunday, 5) Notifications for milestones in real-time, 6) Live activity indicators when child is using platform, 7) Performance alerts for significant changes, 8) Manual refresh option for latest data.",
+        "keywords": ["real time", "live", "current", "updated", "fresh", "immediate"]
+      },
+      {
+        "question": "Can parents compare progress over time?",
+        "answer": "Yes! Comparison features: 1) Side-by-side time period comparisons, 2) Progress trend visualization, 3) Milestone achievement timelines, 4) Skill improvement rate analysis, 5) Comparison with previous performance, 6) Goal progress tracking over time, 7) Exportable historical data, 8) Custom time period selection, 9) Progress prediction based on trends, 10) Celebration of long-term improvement.",
+        "keywords": ["compare", "over time", "history", "trends", "progress", "improvement"]
+      },
+      {
+        "question": "What privacy controls do parents have?",
+        "answer": "Privacy controls: 1) Data sharing preferences, 2) Profile visibility settings, 3) Communication permissions, 4) Data export controls, 5) Activity monitoring levels, 6) Notification preferences, 7) Account access management, 8) Child data protection settings, 9) Compliance with privacy regulations, 10) Transparent data usage policies.",
+        "keywords": ["privacy", "controls", "settings", "protect", "data", "security"]
+      },
+      {
+        "question": "How does the dashboard support multiple children?",
+        "answer": "Multi-child support: 1) Switch between child profiles easily, 2) Individualized tracking for each child, 3) Comparison (if desired) between siblings, 4) Separate goals and settings per child, 5) Combined family activity view, 6) Individual communication threads, 7) Customized recommendations per child, 8) Time allocation balancing tools, 9) Family achievement celebrations, 10) Sibling progress privacy options.",
+        "keywords": ["multiple", "children", "siblings", "family", "profiles", "kids"]
+      },
+      {
+        "question": "What notification system is in place?",
+        "answer": "Notifications: 1) Achievement and milestone alerts, 2) Daily/weekly progress summaries, 3) Goal completion notifications, 4) Teacher/therapist messages, 5) System updates and new features, 6) Recommended activity alerts, 7) Consistency reminders, 8) Special event announcements, 9) Security and login alerts, 10) Customizable notification preferences.",
+        "keywords": ["notifications", "alerts", "messages", "updates", "reminders", "alerts"]
+      },
+      {
+        "question": "Can parents export data for specialists?",
+        "answer": "Yes! Export features: 1) PDF reports for meetings, 2) CSV data for analysis, 3) Progress charts for presentations, 4) Custom report generation, 5) Timeline visualizations, 6) Skill mastery summaries, 7) Error pattern documentation, 8) Therapy progress tracking, 9) School report integration, 10) Multi-format export options.",
+        "keywords": ["export", "data", "reports", "specialists", "share", "download"]
+      },
+      {
+        "question": "How does it help with home-school collaboration?",
+        "answer": "Collaboration support: 1) Shared goal setting with teachers, 2) Progress reporting to school, 3) Assignment tracking integration, 4) Communication tools with educators, 5) Data sharing for IEP meetings, 6) Consistent messaging between home/school, 7) Activity recommendation alignment, 8) Progress monitoring consistency, 9) Resource sharing platform, 10) Meeting preparation tools.",
+        "keywords": ["home", "school", "collaboration", "teachers", "work together", "coordinate"]
+      },
+      {
+        "question": "What research supports parent dashboard effectiveness?",
+        "answer": "Supported by: 1) Studies on parent involvement in education, 2) Research on progress monitoring benefits, 3) Evidence for data-driven parenting decisions, 4) Studies on home-school communication effectiveness, 5) Research on parental awareness of learning needs, 6) Evidence for technology-mediated parent engagement, 7) Studies on empowerment through information.",
+        "keywords": ["research", "evidence", "support", "studies", "parent", "dashboard"]
+      },
+      {
+        "question": "How user-friendly is the parent dashboard?",
+        "answer": "User-friendly features: 1) Intuitive navigation and layout, 2) Clear visual data presentations, 3) Simple terminology explanations, 4) Help tutorials and guides, 5) Responsive design for all devices, 6) Multi-language interface support, 7) Accessibility features for diverse needs, 8) Quick overview summaries, 9) Customizable dashboard widgets, 10) Step-by-step setup assistance.",
+        "keywords": ["user friendly", "easy", "simple", "intuitive", "design", "interface"]
+      }
+    ],
+
+    "psychologistDashboard": [
+      {
+        "question": "What is the Psychologist Dashboard?",
+        "answer": "The Psychologist Dashboard is a specialized clinical interface that provides mental health professionals with comprehensive analytics, assessment tools, intervention planning features, and progress monitoring capabilities specifically designed for supporting dyslexic children. It offers evidence-based insights, standardized measurement tools, and collaborative features for multidisciplinary care.",
+        "keywords": ["psychologist", "dashboard", "clinical", "therapy", "analytics", "professional"]
+      },
+      {
+        "question": "What clinical insights does it provide?",
+        "answer": "Clinical insights: 1) Phonological processing patterns, 2) Cognitive skill profiles, 3) Emotional engagement metrics, 4) Learning style preferences, 5) Error pattern analysis, 6) Progress rate comparisons, 7) Response to intervention data, 8) Standardized measure correlations, 9) Developmental trajectory tracking, 10) Multidimensional assessment integration.",
+        "keywords": ["clinical", "insights", "analysis", "data", "psychology", "assessment"]
+      },
+      {
+        "question": "How does it support assessment?",
+        "answer": "Assessment support: 1) Standardized measure integration, 2) Progress monitoring tools, 3) Comparative analysis with norms, 4) Multidimensional profiling, 5) Longitudinal tracking, 6) Exportable assessment data, 7) Diagnostic pattern identification, 8) Response to intervention measurement, 9) Custom assessment creation, 10) Report generation for evaluations.",
+        "keywords": ["assessment", "evaluation", "testing", "measure", "diagnostic", "tools"]
+      },
+      {
+        "question": "What intervention planning tools are available?",
+        "answer": "Intervention tools: 1) Goal setting with measurable objectives, 2) Activity prescription based on needs, 3) Progress tracking toward goals, 4) Strategy effectiveness monitoring, 5) Custom intervention plan creation, 6) Resource recommendation engine, 7) Timeline planning features, 8) Multidisciplinary coordination tools, 9) Evidence-based practice integration, 10) Adaptation tracking for adjustments.",
+        "keywords": ["intervention", "planning", "therapy", "treatment", "goals", "strategies"]
+      },
+      {
+        "question": "How does it facilitate collaboration?",
+        "answer": "Collaboration features: 1) Secure messaging with parents/teachers, 2) Shared goal and progress tracking, 3) Multidisciplinary team coordination, 4) Case conference preparation tools, 5) Progress report sharing, 6) Treatment plan collaboration, 7) Resource sharing platform, 8) Meeting scheduling integration, 9) Role-based access controls, 10) Audit trail for communications.",
+        "keywords": ["collaboration", "team", "work together", "coordinate", "share", "communicate"]
+      },
+      {
+        "question": "What research-based metrics are used?",
+        "answer": "Research-based metrics: 1) Phonological awareness measures, 2) Rapid automatized naming indicators, 3) Working memory assessments, 4) Processing speed metrics, 5) Orthographic processing measures, 6) Comprehension monitoring indicators, 7) Emotional engagement scales, 8) Self-efficacy measurements, 9) Anxiety reduction tracking, 10) Quality of life indicators.",
+        "keywords": ["research", "metrics", "measures", "data", "evidence", "based"]
+      },
+      {
+        "question": "How does it handle data privacy for clinical information?",
+        "answer": "Clinical privacy: 1) HIPAA/GDPR compliance features, 2) Encrypted data storage and transmission, 3) Role-based access controls, 4) Audit trails for access, 5) Consent management tools, 6) Data anonymization options, 7) Secure sharing controls, 8) Compliance reporting, 9) Client data protection protocols, 10) Ethical guideline adherence features.",
+        "keywords": ["privacy", "clinical", "data", "secure", "protected", "confidential"]
+      },
+      {
+        "question": "Can psychologists create custom assessments?",
+        "answer": "Yes! Custom assessment features: 1) Test creation tools, 2) Item banking capabilities, 3) Scoring algorithm customization, 4) Norm comparison settings, 5) Progress monitoring setup, 6) Report template creation, 7) Assessment scheduling tools, 8) Automated scoring and analysis, 9) Client-specific adaptation, 10) Sharing with colleagues option.",
+        "keywords": ["custom", "assessments", "create", "tests", "evaluation", "tools"]
+      },
+      {
+        "question": "What reporting capabilities are available?",
+        "answer": "Reporting: 1) Comprehensive evaluation reports, 2) Progress monitoring summaries, 3) Treatment plan documents, 4) School consultation reports, 5) Research data exports, 6) Billing and documentation, 7) Client history compilations, 8) Multidisciplinary team summaries, 9) Custom report templates, 10) Export in multiple formats (PDF, Word, etc.).",
+        "keywords": ["reports", "reporting", "documents", "summaries", "export", "generate"]
+      },
+      {
+        "question": "How does it integrate with clinical practice?",
+        "answer": "Practice integration: 1) Electronic health record compatibility, 2) Appointment scheduling integration, 3) Billing code suggestion, 4) Documentation time tracking, 5) Client management features, 6) Treatment plan templates, 7) Progress note creation, 8) Outcome measurement tools, 9) Practice analytics, 10) Continuing education tracking.",
+        "keywords": ["clinical", "practice", "integration", "workflow", "therapy", "professional"]
+      },
+      {
+        "question": "What training resources are provided?",
+        "answer": "Training resources: 1) Platform orientation tutorials, 2) Research evidence summaries, 3) Best practice guidelines, 4) Case study examples, 5) Intervention strategy library, 6) Assessment interpretation guides, 7) Professional development tracking, 8) Peer consultation features, 9) Research literature links, 10) Conference and workshop information.",
+        "keywords": ["training", "resources", "learning", "education", "professional", "development"]
+      },
+      {
+        "question": "How does it support evidence-based practice?",
+        "answer": "Evidence-based support: 1) Research citation integration, 2) Outcome measurement tools, 3) Treatment fidelity monitoring, 4) Best practice guidelines, 5) Literature review features, 6) Data-driven decision support, 7) Intervention effectiveness tracking, 8) Comparative effectiveness data, 9) Research participation tools, 10) Evidence update notifications.",
+        "keywords": ["evidence", "based", "practice", "research", "effective", "outcomes"]
+      },
+      {
+        "question": "Can multiple professionals collaborate on a case?",
+        "answer": "Yes! Multi-professional features: 1) Shared client access controls, 2) Coordinated goal setting, 3) Integrated progress tracking, 4) Team communication tools, 5) Role-specific view customization, 6) Consolidated reporting, 7) Treatment plan coordination, 8) Schedule coordination, 9) Resource sharing, 10) Unified client perspective.",
+        "keywords": ["multiple", "professionals", "collaborate", "team", "case", "together"]
+      },
+      {
+        "question": "What makes it specifically useful for dyslexia specialists?",
+        "answer": "Dyslexia specialist features: 1) Phonological processing analytics, 2) Reading development tracking, 3) Multisensory intervention tools, 4) Orton-Gillingham approach integration, 5) Literacy development metrics, 6) Cognitive profile analysis, 7) Comorbidity tracking tools, 8) School consultation support, 9) Parent coaching resources, 10) Research-based dyslexia interventions.",
+        "keywords": ["dyslexia", "specialist", "specific", "useful", "features", "tools"]
+      },
+      {
+        "question": "How does it handle longitudinal tracking?",
+        "answer": "Longitudinal tracking: 1) Multi-year progress charts, 2) Developmental trajectory analysis, 3) Milestone achievement timelines, 4) Comparative year-over-year data, 5) Growth rate calculations, 6) Predictive analytics based on trends, 7) Intervention effectiveness over time, 8) Comprehensive history views, 9) Transition planning tools, 10) Life span development tracking.",
+        "keywords": ["longitudinal", "tracking", "over time", "history", "trends", "development"]
+      }
+    ],
+
+    "adminDashboard": [
+      {
+        "question": "What is the Super Admin Dashboard?",
+        "answer": "The Super Admin Dashboard is the comprehensive management interface for system administrators, providing tools for user management, content control, analytics monitoring, system configuration, security management, and platform oversight. It enables centralized control of the entire LearnBridge Kids ecosystem with role-based access and detailed monitoring capabilities.",
+        "keywords": ["admin", "dashboard", "super", "management", "control", "system"]
+      },
+      {
+        "question": "What user management features are available?",
+        "answer": "User management: 1) User account creation and editing, 2) Role assignment and permissions, 3) Bulk user import/export, 4) Account activation/deactivation, 5) Password reset management, 6) User activity monitoring, 7) Usage pattern analysis, 8) Communication with users, 9) Group management tools, 10) Audit trail for user actions.",
+        "keywords": ["user", "management", "accounts", "control", "admin", "users"]
+      },
+      {
+        "question": "How is content managed through the admin dashboard?",
+        "answer": "Content management: 1) Game content upload and editing, 2) E-book library management, 3) Assessment item banking, 4) Multimedia resource control, 5) Content versioning and updates, 6) Quality assurance tools, 7) Content categorization, 8) Age/grade level assignment, 9) Content usage analytics, 10) Backup and restoration.",
+        "keywords": ["content", "management", "games", "books", "resources", "admin"]
+      },
+      {
+        "question": "What analytics can administrators view?",
+        "answer": "Analytics: 1) System-wide usage statistics, 2) Performance metrics by game/activity, 3) User engagement patterns, 4) Progress trends across user groups, 5) System performance monitoring, 6) Error and bug reporting, 7) Feature usage analysis, 8) Comparative analytics between groups, 9) Predictive analytics for growth, 10) Custom report generation.",
+        "keywords": ["analytics", "data", "statistics", "reports", "metrics", "admin"]
+      },
+      {
+        "question": "How does the dashboard support system configuration?",
+        "answer": "System configuration: 1) Platform settings management, 2) Language pack control, 3) Feature enablement/disablement, 4) Integration configuration, 5) Notification system setup, 6) Security settings control, 7) Backup scheduling, 8) Performance optimization, 9) Custom branding options, 10) Compliance configuration.",
+        "keywords": ["system", "configuration", "settings", "setup", "admin", "control"]
+      },
+      {
+        "question": "What security management features are included?",
+        "answer": "Security features: 1) User access monitoring, 2) Security incident tracking, 3) Password policy enforcement, 4) Data encryption management, 5) Audit log review, 6) Security compliance reporting, 7) Vulnerability monitoring, 8) Backup and recovery management, 9) Privacy control enforcement, 10) Security training resources.",
+        "keywords": ["security", "management", "protection", "safety", "admin", "control"]
+      },
+      {
+        "question": "How are updates and maintenance managed?",
+        "answer": "Update management: 1) Version control and deployment, 2) Update scheduling tools, 3) Rollback capabilities, 4) Maintenance mode activation, 5) Update impact monitoring, 6) User notification systems, 7) Testing environment management, 8) Patch management, 9) Performance monitoring during updates, 10) Update documentation.",
+        "keywords": ["updates", "maintenance", "management", "admin", "system", "control"]
+      },
+      {
+        "question": "What reporting capabilities are available to admins?",
+        "answer": "Admin reporting: 1) System performance reports, 2) User activity summaries, 3) Financial reporting (if applicable), 4) Compliance documentation, 5) Custom report creation, 6) Export in multiple formats, 7) Scheduled report generation, 8) Dashboard customization, 9) Real-time monitoring displays, 10) Historical trend analysis.",
+        "keywords": ["reports", "reporting", "admin", "data", "analytics", "summary"]
+      },
+      {
+        "question": "How does it support multi-institution management?",
+        "answer": "Multi-institution features: 1) Separate institution configurations, 2) Cross-institution analytics, 3) Centralized user management, 4) Institution-specific branding, 5) Custom content per institution, 6) Role-based access across institutions, 7) Consolidated billing (if applicable), 8) Institution comparison tools, 9) Resource sharing between institutions, 10) Standardized reporting.",
+        "keywords": ["multi", "institution", "schools", "organizations", "management", "admin"]
+      },
+      {
+        "question": "What integration capabilities are provided?",
+        "answer": "Integration capabilities: 1) API management tools, 2) Third-party service integration, 3) Data import/export utilities, 4) System interoperability configuration, 5) Webhook management, 6) Authentication integration, 7) Data synchronization tools, 8) External system monitoring, 9) Custom integration development, 10) Documentation for integrations.",
+        "keywords": ["integration", "api", "connect", "systems", "admin", "tools"]
+      },
+      {
+        "question": "How does it handle data backup and recovery?",
+        "answer": "Backup features: 1) Automated backup scheduling, 2) Multiple backup location options, 3) Incremental backup capabilities, 4) Recovery point objectives configuration, 5) Backup verification tools, 6) Disaster recovery planning, 7) Data export for external backup, 8) Backup rotation management, 9) Recovery testing tools, 10) Compliance with data retention policies.",
+        "keywords": ["backup", "recovery", "data", "protection", "admin", "management"]
+      },
+      {
+        "question": "What customization options are available for administrators?",
+        "answer": "Customization: 1) Dashboard layout personalization, 2) Report template creation, 3) Notification rule setting, 4) User role customization, 5) Workflow configuration, 6) Branding customization tools, 7) Language customization, 8) Feature flag management, 9) Custom field creation, 10) Automation rule setting.",
+        "keywords": ["customization", "options", "admin", "personalize", "configure", "settings"]
+      },
+      {
+        "question": "How does it support compliance management?",
+        "answer": "Compliance support: 1) Regulatory requirement tracking, 2) Audit trail maintenance, 3) Compliance report generation, 4) Policy documentation tools, 5) Consent management features, 6) Data protection controls, 7) Age verification tools, 8) Privacy compliance monitoring, 9) Security standard adherence, 10) Certification maintenance tools.",
+        "keywords": ["compliance", "regulations", "policies", "admin", "management", "legal"]
+      },
+      {
+        "question": "What monitoring and alerting systems are in place?",
+        "answer": "Monitoring systems: 1) Real-time system performance monitoring, 2) User activity alerts, 3) Security incident notifications, 4) Performance threshold alerts, 5) Error rate monitoring, 6) Usage pattern alerts, 7) Custom alert creation, 8) Escalation procedures configuration, 9) Alert history tracking, 10) Integration with monitoring tools.",
+        "keywords": ["monitoring", "alerts", "notifications", "admin", "system", "management"]
+      },
+      {
+        "question": "How does it facilitate user support from the admin side?",
+        "answer": "User support: 1) Support ticket management, 2) User communication tools, 3) FAQ management system, 4) Tutorial content management, 5) User feedback collection, 6) Issue tracking and resolution, 7) Support resource allocation, 8) User satisfaction monitoring, 9) Knowledge base management, 10) Support workflow configuration.",
+        "keywords": ["support", "users", "help", "admin", "management", "assistance"]
+      }
+    ],
+
+    "technicalSpecifications": [
+      {
+        "question": "What technology stack is used for LearnBridge Kids?",
+        "answer": "Technology stack: Frontend: React JS 17 with Next.js 13 for server-side rendering; Backend: Node.js with Express.js; Database: MongoDB with Mongoose ODM; AI/ML: TensorFlow.js with Python backend services; Authentication: Firebase Auth with JWT tokens; APIs: RESTful architecture with Google Cloud APIs for TTS/STT; Hosting: Vercel for frontend, AWS/Google Cloud for backend; Additional: Docker for containerization, Git for version control.",
+        "keywords": ["technology", "stack", "tech", "framework", "programming", "code"]
+      },
+      {
+        "question": "How is the platform architected?",
+        "answer": "Architecture: Three-tier architecture: 1) Presentation Layer (React/Next.js frontend), 2) Application Layer (Node.js backend with Express, AI services in Python/Flask), 3) Data Layer (MongoDB database). Microservices for AI features, monolithic core for user management. RESTful APIs connect all components. Cloud-native design with containerization support.",
+        "keywords": ["architecture", "design", "structure", "system", "components", "layers"]
+      },
+      {
+        "question": "What databases are used and why?",
+        "answer": "Databases: Primary: MongoDB (NoSQL) for flexible schema to handle diverse user data, progress tracking, game states, and content. Why MongoDB: Schema flexibility for evolving features, JSON-like documents match JavaScript frontend, horizontal scalability, strong community support. Supplemental: Firebase for real-time features and authentication. Redis for caching frequently accessed data.",
+        "keywords": ["database", "mongodb", "firebase", "data", "storage", "why"]
+      },
+      {
+        "question": "How is AI integrated into the platform?",
+        "answer": "AI integration: 1) TensorFlow.js for client-side ML (adaptive difficulty), 2) Python/Flask backend for heavy AI tasks (speech processing), 3) Google Cloud APIs for TTS/STT, 4) Custom ML models for progress prediction, 5) Reinforcement learning for personalized learning paths, 6) NLP for comprehension analysis, 7) Computer vision for handwriting recognition (future), 8) Ensemble methods for accurate recommendations.",
+        "keywords": ["ai", "artificial intelligence", "machine learning", "integration", "how", "works"]
+      },
+      {
+        "question": "What security measures are implemented?",
+        "answer": "Security: 1) HTTPS encryption for all communications, 2) JWT tokens for authentication with short expiry, 3) Password hashing with bcrypt, 4) Role-based access control, 5) Input validation and sanitization, 6) CSRF and XSS protection, 7) Regular security audits, 8) Data encryption at rest, 9) Secure API key management, 10) Compliance with child privacy laws (COPPA, GDPR-K).",
+        "keywords": ["security", "protection", "safe", "secure", "measures", "implementation"]
+      },
+      {
+        "question": "How is the platform made scalable?",
+        "answer": "Scalability: 1) Microservices architecture for independent scaling, 2) MongoDB sharding for database scaling, 3) Load balancing with NGINX, 4) CDN for static assets, 5) Caching with Redis, 6) Containerization with Docker for easy deployment, 7) Auto-scaling in cloud infrastructure, 8) Database indexing optimization, 9) Asynchronous processing for heavy tasks, 10) Monitoring for performance bottlenecks.",
+        "keywords": ["scalable", "scalability", "performance", "handle", "users", "growth"]
+      },
+      {
+        "question": "What APIs are available for integration?",
+        "answer": "APIs: 1) User Management API, 2) Progress Tracking API, 3) Game Interaction API, 4) Content Delivery API, 5) Analytics API, 6) Authentication API, 7) Notification API, 8) Reporting API, 9) Integration API for third-party systems, 10) Webhook system for event notifications. All APIs follow RESTful conventions with JSON payloads, comprehensive documentation, and versioning.",
+        "keywords": ["apis", "integration", "connect", "systems", "rest", "json"]
+      },
+      {
+        "question": "How is data privacy maintained technically?",
+        "answer": "Technical privacy: 1) Data encryption in transit (TLS 1.3) and at rest (AES-256), 2) Pseudonymization where possible, 3) Access logs with audit trails, 4) Regular data purging policies, 5) Privacy by design architecture, 6) Consent management system, 7) Data minimization principles, 8) Secure data deletion tools, 9) Privacy impact assessments, 10) Compliance with international standards.",
+        "keywords": ["privacy", "data", "technical", "protection", "encryption", "compliance"]
+      },
+      {
+        "question": "What testing methodologies are used?",
+        "answer": "Testing: 1) Unit testing with Jest for frontend/backend, 2) Integration testing for API endpoints, 3) End-to-end testing with Cypress, 4) Performance testing with Loader.io, 5) Security testing with OWASP tools, 6) Usability testing with target users, 7) Accessibility testing (WCAG 2.1), 8) Cross-browser testing, 9) Mobile responsiveness testing, 10) Continuous integration with GitHub Actions.",
+        "keywords": ["testing", "quality", "assurance", "methods", "tests", "validation"]
+      },
+      {
+        "question": "How is the platform deployed?",
+        "answer": "Deployment: 1) Frontend deployed on Vercel for optimal Next.js performance, 2) Backend on AWS Elastic Beanstalk/Google App Engine, 3) MongoDB Atlas for managed database, 4) Docker containers for consistent environments, 5) CI/CD pipeline with GitHub Actions, 6) Blue-green deployment for zero downtime, 7) Environment-specific configurations, 8) Automated backup deployment, 9) Monitoring with New Relic/DataDog, 10) Disaster recovery procedures.",
+        "keywords": ["deployment", "deploy", "hosting", "server", "cloud", "infrastructure"]
+      },
+      {
+        "question": "What monitoring and analytics tools are used?",
+        "answer": "Monitoring: 1) Application performance monitoring (New Relic), 2) Error tracking (Sentry), 3) User analytics (Google Analytics, custom), 4) Server monitoring (CloudWatch/Stackdriver), 5) Log aggregation (ELK Stack), 6) Real-time dashboard (Grafana), 7) Uptime monitoring (UptimeRobot), 8) Security monitoring, 9) Business metrics tracking, 10) Custom analytics for learning outcomes.",
+        "keywords": ["monitoring", "analytics", "tools", "track", "performance", "data"]
+      },
+      {
+        "question": "How is internationalization handled technically?",
+        "answer": "Internationalization: 1) i18n library for React, 2) Right-to-left support for Urdu, 3) Unicode compliance for multilingual text, 4) Locale-specific formatting, 5) Translation management system, 6) Cultural adaptation tools, 7) Language detection, 8) Bidirectional text support, 9) Font rendering optimization for different scripts, 10) Localized content delivery networks.",
+        "keywords": ["internationalization", "i18n", "multilingual", "language", "technical", "support"]
+      },
+      {
+        "question": "What accessibility standards are followed?",
+        "answer": "Accessibility: 1) WCAG 2.1 Level AA compliance, 2) ARIA labels for screen readers, 3) Keyboard navigation support, 4) Color contrast ratios (4.5:1 minimum), 5) Text resizing without loss of functionality, 6) Dyslexia-friendly font options, 7) Reduced motion options, 8) Alternative text for images, 9) Focus indicators for navigation, 10) Voice control compatibility.",
+        "keywords": ["accessibility", "standards", "wcag", "aria", "screen readers", "inclusive"]
+      },
+      {
+        "question": "How is performance optimized?",
+        "answer": "Performance: 1) Code splitting and lazy loading, 2) Image optimization and compression, 3) CDN for static assets, 4) Database query optimization, 5) Caching strategies, 6) Minification and bundling, 7) HTTP/2 implementation, 8) Progressive Web App features, 9) Critical CSS extraction, 10) Performance budgeting and monitoring.",
+        "keywords": ["performance", "optimization", "fast", "speed", "load", "efficient"]
+      },
+      {
+        "question": "What backup and disaster recovery procedures are in place?",
+        "answer": "Backup/Recovery: 1) Automated daily database backups, 2) Incremental backup system, 3) Geo-redundant storage, 4) Point-in-time recovery capability, 5) Regular disaster recovery testing, 6) Business continuity planning, 7) Data export tools for manual backup, 8) Version control for code and configuration, 9) Documentation of recovery procedures, 10) Team training on recovery processes.",
+        "keywords": ["backup", "disaster", "recovery", "procedures", "data", "protection"]
+      }
+    ],
+
+    "registrationAndAccess": [
+      {
+        "question": "How do I create an account for my child?",
+        "answer": "Account creation: 1) Visit LearnBridge Kids website, 2) Click 'Sign Up' button, 3) Select 'Parent/Guardian' account type, 4) Provide your information (name, email, password), 5) Verify email through confirmation link, 6) Log in to parent dashboard, 7) Click 'Add Child' to create child profile, 8) Enter child's information (name, age, initial assessment if available), 9) Set preferences and goals, 10) Start using the platform with your child.",
+        "keywords": ["create", "account", "sign up", "register", "child", "parent"]
+      },
+      {
+        "question": "What information is needed during registration?",
+        "answer": "Required information: For Parent: name, email, password, relationship to child. For Child: name, age/grade, language preferences, initial reading level (if known), any diagnosed learning difficulties. Optional: School information, therapist contact, specific learning goals. All personal information is protected with encryption and only used for personalization and progress tracking.",
+        "keywords": ["information", "needed", "required", "registration", "data", "provide"]
+      },
+      {
+        "question": "Is there an age verification process?",
+        "answer": "Age verification: 1) Parent confirms child's age during profile creation, 2) Age range validation (6-12 years), 3) Age-appropriate content filtering, 4) Parental consent acknowledgment for children under 13, 5) COPPA compliance procedures, 6) Age-based difficulty adjustments, 7) Content appropriateness checks, 8) Parental controls based on child age, 9) Regular age confirmation prompts, 10) Compliance with international child privacy laws.",
+        "keywords": ["age", "verification", "confirm", "check", "child", "years"]
+      },
+      {
+        "question": "Can schools register multiple students?",
+        "answer": "School registration: 1) School administrator contact for institutional account setup, 2) Bulk student registration options, 3) Class management features, 4) Teacher account creation, 5) School-wide analytics, 6) Custom content alignment with curriculum, 7) Volume licensing options, 8) Integration with school management systems, 9) Dedicated support for schools, 10) Training for teachers and administrators.",
+        "keywords": ["schools", "register", "students", "multiple", "bulk", "institution"]
+      },
+      {
+        "question": "How do psychologists/therapists register?",
+        "answer": "Professional registration: 1) Select 'Professional/Therapist' account type, 2) Provide professional credentials and license information, 3) Verification process for professional status, 4) Agreement to professional ethics guidelines, 5) Setup of professional profile, 6) Client management tools access, 7) Clinical dashboard features, 8) Continuing education tracking, 9) Professional networking features, 10) Research participation options.",
+        "keywords": ["psychologists", "therapists", "register", "professional", "credentials", "license"]
+      },
+      {
+        "question": "What if I forget my password?",
+        "answer": "Password recovery: 1) Click 'Forgot Password' on login page, 2) Enter registered email address, 3) Receive password reset link via email, 4) Click link (expires in 24 hours for security), 5) Create new strong password (minimum 8 characters with mix of letters, numbers, symbols), 6) Confirm new password, 7) Automatic logout of all other sessions, 8) Option to set up two-factor authentication, 9) Password strength indicator, 10) Security tips for password management.",
+        "keywords": ["forgot", "password", "recover", "reset", "login", "access"]
+      },
+      {
+        "question": "Can I change my account type later?",
+        "answer": "Account type changes: 1) Contact support for account type modification, 2) Provide reason for change request, 3) Verification process for new account type requirements, 4) Data migration between account structures, 5) Permission adjustments, 6) Feature access updates, 7) Training resources for new account type, 8) Confirmation of understanding new responsibilities, 9) Update of billing if applicable, 10) Notification to connected users if relevant.",
+        "keywords": ["change", "account", "type", "upgrade", "downgrade", "switch"]
+      },
+      {
+        "question": "Is there a free trial available?",
+        "answer": "Free trial: 1) 14-day free trial for individual families, 2) 30-day evaluation period for institutions, 3) Full feature access during trial, 4) Limited to creating progress profiles for up to 2 children, 5) Access to sample content library, 6) Basic analytics during trial, 7) Email support available, 8) No credit card required for trial, 9) Reminder notifications before trial ends, 10) Easy conversion to paid subscription if desired.",
+        "keywords": ["free", "trial", "test", "try", "demo", "evaluation"]
+      },
+      {
+        "question": "How do I delete my account?",
+        "answer": "Account deletion: 1) Go to Account Settings in dashboard, 2) Select 'Delete Account' option, 3) Confirm understanding that deletion is permanent, 4) For child accounts: parent verification required, 5) Option to download data before deletion, 6) Final confirmation with password re-entry, 7) 30-day grace period for account recovery, 8) Complete deletion of all personal data, 9) Confirmation email sent, 10) Compliance with data protection right to erasure.",
+        "keywords": ["delete", "account", "remove", "cancel", "close", "terminate"]
+      },
+      {
+        "question": "Can I use social media to login?",
+        "answer": "Social login: Currently using secure email/password authentication with JWT tokens. Social media login (Google, Facebook) may be added in future updates based on security assessments, user demand, and compliance with child privacy regulations. Current focus is on maximum security for children's data through controlled authentication methods.",
+        "keywords": ["social media", "login", "facebook", "google", "sign in", "authenticate"]
+      },
+      {
+        "question": "What devices can access LearnBridge Kids?",
+        "answer": "Device access: 1) Windows/Mac/Linux computers with modern browsers, 2) iOS/Android tablets (recommended for best experience), 3) iOS/Android smartphones (responsive design), 4) Chromebooks and other education devices, 5) Smartboards for classroom use, 6) Minimum requirements: 2GB RAM, modern processor, updated operating system, 7) Recommended: touch screen for interactive games, 8) Microphone for speech features, 9) Speakers/headphones for audio, 10) Stable internet connection.",
+        "keywords": ["devices", "access", "computer", "tablet", "phone", "compatible"]
+      },
+      {
+        "question": "What browsers are supported?",
+        "answer": "Browser support: 1) Chrome (version 80+, recommended), 2) Firefox (version 75+), 3) Safari (version 13+), 4) Edge (Chromium version 80+), 5) Mobile browsers (iOS Safari, Chrome for Android). Requirements: JavaScript enabled, cookies allowed for session management, modern browser with HTML5/CSS3 support. For best experience: latest browser version, enabled Web Audio API for speech features, sufficient RAM for game performance.",
+        "keywords": ["browsers", "supported", "chrome", "firefox", "safari", "edge"]
+      },
+      {
+        "question": "Is there offline access?",
+        "answer": "Offline access: Limited offline functionality available: 1) Cached e-books for reading, 2) Downloaded game content for practice, 3) Progress tracking with sync when online, 4) Basic games without AI features. Full functionality requires internet connection for: AI adaptation, speech recognition, progress syncing, content updates, multiplayer features. Future enhancements may include more comprehensive offline mode.",
+        "keywords": ["offline", "internet", "connection", "online", "work", "access"]
+      },
+      {
+        "question": "How do I update my account information?",
+        "answer": "Account updates: 1) Login and go to Account Settings, 2) Edit personal information (name, email, etc.), 3) Update child profiles as they grow/change, 4) Modify preferences and settings, 5) Change notification preferences, 6) Update payment information if applicable, 7) Modify privacy settings, 8) Add/remove connected accounts (therapists, teachers), 9) Export/import data settings, 10) All changes logged for security tracking.",
+        "keywords": ["update", "account", "information", "change", "modify", "edit"]
+      },
+      {
+        "question": "What support is available during registration?",
+        "answer": "Registration support: 1) Step-by-step registration guide, 2) Video tutorial for account setup, 3) Live chat support during business hours, 4) Email support with 24-hour response time, 5) FAQ section for common issues, 6) Phone support for institutional accounts, 7) In-platform help buttons, 8) Community forum for peer support, 9) Multilingual support staff, 10) Accessibility support for users with disabilities.",
+        "keywords": ["support", "registration", "help", "assistance", "setup", "guide"]
+      }
+    ],
+
+    "pricingAndBusiness": [
+      {
+        "question": "What is the pricing model for LearnBridge Kids?",
+        "answer": "Pricing model: Software as a Service (SaaS) with tiered subscriptions: 1) Individual Family Plan: Monthly/Annual subscription for 1-3 children, 2) Professional Plan: For therapists/psychologists with client management, 3) School Plan: Per-student licensing for educational institutions, 4) Enterprise Plan: Custom solutions for large organizations. Free tier with limited features also available. All plans include: platform access, basic support, regular updates, and data privacy protection.",
+        "keywords": ["pricing", "cost", "price", "subscription", "model", "plans"]
+      },
+      {
+        "question": "Is there a free version?",
+        "answer": "Free version: Yes, limited free tier includes: 1) Access to 3 basic games, 2) Sample e-books from library, 3) Basic progress tracking, 4) Parent dashboard with limited analytics, 5) Community support forum access, 6) Email support for technical issues, 7) 1 child profile, 8) 30 minutes daily usage limit, 9) Standard accessibility features, 10) Compliance with basic privacy protections. Free users can upgrade anytime to access premium features.",
+        "keywords": ["free", "version", "tier", "basic", "limited", "no cost"]
+      },
+      {
+        "question": "What payment methods are accepted?",
+        "answer": "Payment methods: 1) Credit/Debit cards (Visa, MasterCard, American Express), 2) Digital wallets (PayPal, Apple Pay, Google Pay), 3) Bank transfers for institutional accounts, 4) Mobile payment options in supported regions, 5) Educational institution purchase orders, 6) Annual billing with discount, 7) Family billing for multiple children, 8) Scholarship/discount codes when available, 9) Corporate billing for organizations, 10) Local payment methods in Pakistan (EasyPaisa, JazzCash).",
+        "keywords": ["payment", "methods", "pay", "credit card", "subscribe", "billing"]
+      },
+      {
+        "question": "Are there discounts for schools or institutions?",
+        "answer": "Institutional discounts: 1) Volume discounts based on number of students, 2) Multi-year licensing discounts, 3) Special education school special pricing, 4) Non-profit organization discounts, 5) Government school partnership programs, 6) Referral discounts for bringing other schools, 7) Early adopter discounts for new regions, 8) Bundle discounts with training services, 9) Seasonal promotion discounts, 10) Custom pricing for large deployments.",
+        "keywords": ["discounts", "schools", "institutions", "volume", "bulk", "pricing"]
+      },
+      {
+        "question": "Can I cancel my subscription anytime?",
+        "answer": "Cancellation policy: 1) Monthly plans: cancel anytime, effective end of billing period, 2) Annual plans: cancel with pro-rated refund for unused months, 3) No cancellation fees, 4) Easy cancellation through account settings, 5) Option to pause subscription temporarily, 6) Data retention for 90 days after cancellation for re-subscription, 7) Export all data before cancellation, 8) Clear communication of cancellation effects, 9) Feedback request upon cancellation, 10) Easy re-subscription process if returning.",
+        "keywords": ["cancel", "subscription", "stop", "end", "terminate", "policy"]
+      },
+      {
+        "question": "What is included in each pricing tier?",
+        "answer": "Tier features: Basic (Free): 3 games, limited analytics, 1 child. Family (Paid): All 7 games, full analytics, up to 3 children, priority support. Professional: Client management, clinical tools, reporting, multiple child profiles. School: Classroom management, teacher dashboards, admin controls, bulk pricing. Enterprise: Custom features, API access, dedicated support, SLA guarantees. All paid tiers include: no ads, data export, regular updates, security features.",
+        "keywords": ["tiers", "features", "included", "plans", "what's included", "compare"]
+      },
+      {
+        "question": "Are there family plans for multiple children?",
+        "answer": "Family plans: Yes, Family subscription includes: 1) Up to 3 child profiles, 2) Individual progress tracking for each child, 3) Combined family dashboard view, 4) Sibling comparison tools (optional), 5) Family goal setting, 6) Consolidated billing, 7) Family achievement celebrations, 8) Time management tools for multiple children, 9) Individual customization per child, 10) Discount compared to individual subscriptions for each child.",
+        "keywords": ["family", "plans", "multiple", "children", "siblings", "together"]
+      },
+      {
+        "question": "What is the refund policy?",
+        "answer": "Refund policy: 1) 30-day money-back guarantee for new subscriptions, 2) Pro-rated refunds for annual plans, 3) Refund for service outages exceeding 24 hours, 4) Refund if advertised features not functioning, 5) Refund process within 7-10 business days, 6) Original payment method refund, 7) No refund for misuse or violation of terms, 8) Partial refund for partially used periods, 9) Refund request through support ticket, 10) Transparent refund policy documentation.",
+        "keywords": ["refund", "policy", "money back", "guarantee", "return", "cancel"]
+      },
+      {
+        "question": "How does billing work for therapists with multiple clients?",
+        "answer": "Therapist billing: 1) Professional tier with client management, 2) Per-client or unlimited client options, 3) Client billing through therapist or direct to families, 4) Session tracking and billing integration, 5) Insurance documentation support, 6) Progress report billing codes, 7) Group session billing options, 8) Package pricing for therapy programs, 9) Commission/referral tracking, 10) Professional discount for multiple licenses.",
+        "keywords": ["therapists", "billing", "clients", "professional", "practice", "payment"]
+      },
+      {
+        "question": "Are there scholarships or financial assistance?",
+        "answer": "Financial assistance: 1) Needs-based scholarship program, 2) Partnership with non-profits for access, 3) School district sponsorship options, 4) Corporate sponsorship for underserved communities, 5) Sliding scale pricing based on income, 6) Grant-funded access programs, 7) Research study participation discounts, 8) Referral credit system, 9) Community support fund, 10) Disability organization partnerships for subsidized access.",
+        "keywords": ["scholarships", "financial", "assistance", "help", "discount", "support"]
+      },
+      {
+        "question": "What is the business model behind LearnBridge Kids?",
+        "answer": "Business model: Social enterprise with dual goals: 1) Financial sustainability through subscriptions, 2) Social impact through dyslexia support. Revenue streams: Subscription fees, institutional licensing, professional accounts, customization services. Cost structure: Cloud infrastructure, development team, support staff, content creation. Growth strategy: User acquisition through schools/therapists, partnership development, continuous improvement, eventual international expansion.",
+        "keywords": ["business", "model", "revenue", "money", "sustainable", "company"]
+      },
+      {
+        "question": "Are there any hidden fees?",
+        "answer": "Transparent pricing: No hidden fees. Clear pricing includes: 1) All advertised platform features, 2) Standard support during business hours, 3) Regular updates and maintenance, 4) Data storage up to reasonable limits, 5) Basic training resources. Additional costs only for: 1) Custom development requests, 2) Premium support services, 3) Extensive data exports beyond standard, 4) Custom branding for institutions, 5) Advanced integration services. All additional costs communicated upfront with approval required.",
+        "keywords": ["hidden", "fees", "costs", "additional", "extra", "transparent"]
+      },
+      {
+        "question": "How often are prices reviewed/changed?",
+        "answer": "Price review: 1) Annual review considering costs and value, 2) Grandfathering of existing customers at current rates, 3) 60-day notice for price changes, 4) Justification for changes communicated transparently, 5) Option to lock in current rates with annual prepayment, 6) Consideration of regional economic factors, 7) Competitive pricing analysis, 8) Customer feedback incorporation, 9) Value-added features before price increases, 10) Special consideration for long-term customers.",
+        "keywords": ["prices", "review", "changed", "increase", "update", "cost"]
+      },
+      {
+        "question": "Can I try before I buy?",
+        "answer": "Try before buying: 1) 14-day free trial with full feature access, 2) No credit card required for trial, 3) Sample content and games available, 4) Limited to 2 child profiles during trial, 5) Full analytics during trial period, 6) Support available for trial users, 7) Reminder before trial ends, 8) Easy conversion to paid subscription, 9Data preservation when converting from trial, 10) Option to extend trial in special circumstances.",
+        "keywords": ["try", "before", "buy", "test", "trial", "demo"]
+      },
+      {
+        "question": "What happens if I don't renew my subscription?",
+        "answer": "Non-renewal: 1) Account downgraded to free tier features, 2) Access to premium features removed, 3) Data preserved for 90 days for re-subscription, 4) Regular reminders before downgrade, 5) Option to export all data before loss of access, 6) Continued access to free features, 7) Ability to upgrade again at any time, 8) Historical data retained but not updated, 9) Communication of what features will be lost, 10) Grace period for late renewals.",
+        "keywords": ["renew", "subscription", "expire", "end", "continue", "what happens"]
+      }
+    ]
+  },
+
+  "fallbackResponses": [
+    "I understand you're asking about LearnBridge Kids. Could you rephrase your question or ask about specific features like games, dashboards, or AI tools?",
+    "That's an interesting question about our dyslexia platform. Try asking about specific aspects like: 'How do the games work?' or 'What can parents monitor?'",
+    "I want to help you with LearnBridge Kids. Could you be more specific? For example, ask about our Phoneme Recognition Game, Parent Dashboard, or how AI personalization works.",
+    "I'm here to answer questions about LearnBridge Kids. You might ask: 'What age is this for?' or 'How does it help with reading?' or 'Is Urdu supported?'",
+    "To better assist you, please ask about particular features: games for dyslexia, progress tracking, psychologist tools, or technical specifications.",
+    "LearnBridge Kids has many features! Ask about: the 7 educational games, parental monitoring, psychologist analytics, AI adaptation, or bilingual support.",
+    "I can tell you about our platform's games, dashboards, AI features, research basis, or technical details. What specifically interests you?",
+    "Try questions like: 'How does the Spelling Bee game help?' or 'What do parents see in their dashboard?' or 'How is data privacy handled?'",
+    "For information about LearnBridge Kids, you could ask: 'What makes it different?' or 'How does adaptive learning work?' or 'Can schools use it?'",
+    "I specialize in answering questions about LearnBridge Kids. Consider asking about: game effectiveness, user registration, support options, or future plans."
+  ]
+}

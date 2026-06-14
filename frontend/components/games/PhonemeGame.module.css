@@ -1,0 +1,363 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2rem;
+  font-family: 'Arial', sans-serif;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  animation: pulse 2s ease-in-out infinite;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.gameOver {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 3rem;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  max-width: 500px;
+}
+
+.gameOverTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.finalScore {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  font-weight: 600;
+}
+
+.finalStats {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  opacity: 0.9;
+}
+
+.scoreDisplay {
+  font-size: 1.2rem;
+  font-weight: 600;
+  background: white;
+  color: #333;
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
+}
+
+.btnSound {
+  margin-top: 1.5rem;
+  padding: 1rem 2rem;
+  background: #fbbf24;
+  color: #000;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 4px 15px rgba(251, 191, 36, 0.4);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btnSound:hover {
+  background: #f59e0b;
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(251, 191, 36, 0.6);
+}
+
+.btnSound:active {
+  transform: scale(0.98);
+}
+
+.phonemeImage {
+  margin-top: 2rem;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  border: 4px solid white;
+  transition: transform 0.3s ease;
+}
+
+.phonemeImage:hover {
+  transform: scale(1.05);
+}
+
+.choicesGrid {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 500px;
+}
+
+.choiceBtn {
+  padding: 1.25rem;
+  background: #10b981;
+  color: #000;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.choiceBtn:hover:not(:disabled) {
+  background: #059669;
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.5);
+}
+
+.choiceBtn:active:not(:disabled) {
+  transform: scale(0.95);
+}
+
+.choiceBtn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.feedback {
+  margin-top: 1.5rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.5s ease-in;
+  max-width: 500px;
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.feedbackCorrect {
+  background: #10b981;
+  color: white;
+}
+
+.feedbackWrong {
+  background: #ef4444;
+  color: white;
+}
+
+.levelCompleteActions {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  max-width: 500px;
+  flex-wrap: wrap;
+}
+
+.btnPrimary {
+  padding: 1rem 2rem;
+  background: #10b981;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btnPrimary:hover {
+  background: #059669;
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.6);
+}
+
+.btnPrimary:active {
+  transform: scale(0.98);
+}
+
+.btnSecondary {
+  padding: 1rem 2rem;
+  background: #3b82f6;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btnSecondary:hover {
+  background: #2563eb;
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.6);
+}
+
+.btnSecondary:active {
+  transform: scale(0.98);
+}
+
+.btnSuccess {
+  padding: 1rem 2rem;
+  background: #10b981;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btnSuccess:hover {
+  background: #059669;
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.6);
+}
+
+.btnSuccess:active {
+  transform: scale(0.98);
+}
+
+.btnWarning {
+  padding: 1rem 2rem;
+  background: #f59e0b;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 4px 15px rgba(245, 158, 11, 0.4);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btnWarning:hover {
+  background: #d97706;
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(245, 158, 11, 0.6);
+}
+
+.btnWarning:active {
+  transform: scale(0.98);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .phonemeImage {
+    width: 150px;
+    height: 150px;
+  }
+
+  .choicesGrid {
+    gap: 1rem;
+    max-width: 400px;
+  }
+
+  .choiceBtn {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  .levelCompleteActions {
+    flex-direction: column;
+  }
+
+  .btnPrimary,
+  .btnSecondary,
+  .btnSuccess,
+  .btnWarning {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .phonemeImage {
+    width: 120px;
+    height: 120px;
+  }
+
+  .choicesGrid {
+    max-width: 300px;
+    grid-template-columns: 1fr;
+  }
+
+  .scoreDisplay {
+    font-size: 1rem;
+    padding: 0.6rem 1.2rem;
+  }
+
+  .btnSound {
+    font-size: 1rem;
+    padding: 0.875rem 1.5rem;
+  }
+
+  .feedback {
+    font-size: 1.1rem;
+    padding: 0.875rem 1.5rem;
+  }
+
+  .gameOver {
+    padding: 2rem;
+  }
+
+  .gameOverTitle {
+    font-size: 1.5rem;
+  }
+
+  .finalScore {
+    font-size: 1.3rem;
+  }
+
+  .finalStats {
+    font-size: 1rem;
+  }
+}

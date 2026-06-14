@@ -1,0 +1,467 @@
+/* styles/StudentParentView.module.css */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.loading,
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  text-align: center;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 4px solid #e5e7eb;
+  border-top-color: #4f46e5;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.errorIcon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.retryBtn {
+  padding: 0.75rem 1.5rem;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.headerContent {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.headerIcon {
+  font-size: 3rem;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.subtitle {
+  margin: 0.25rem 0 0;
+  opacity: 0.9;
+}
+
+/* Preview Note */
+.previewNote {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.noteIcon {
+  font-size: 1.5rem;
+}
+
+.previewNote p {
+  margin: 0;
+  color: #1e40af;
+  font-size: 0.9375rem;
+}
+
+/* Student Card */
+.studentCard {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  margin-bottom: 24px;
+}
+
+.studentAvatar {
+  width: 64px;
+  height: 64px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 700;
+}
+
+.studentName {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #111827;
+}
+
+.studentLevel {
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+/* Stats Grid */
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.statCard {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
+
+.statIcon {
+  font-size: 2rem;
+  background: #f3f4f6;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.statContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.statValue {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.statLabel {
+  font-size: 0.8125rem;
+  color: #6b7280;
+}
+
+/* No Data */
+.noDataCard {
+  text-align: center;
+  padding: 60px 24px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+  margin-bottom: 24px;
+}
+
+.noDataIcon {
+  font-size: 4rem;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.noDataCard h3 {
+  margin: 0 0 8px;
+  color: #111827;
+}
+
+.noDataCard p {
+  margin: 0;
+  color: #6b7280;
+}
+
+/* Games Grid */
+.gamesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 20px;
+  margin-bottom: 32px;
+}
+
+.gameCard {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+  overflow: hidden;
+}
+
+.gameHeader {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px;
+  background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.gameIcon {
+  font-size: 1.75rem;
+}
+
+.gameTitle {
+  margin: 0;
+  font-size: 1.125rem;
+  color: #111827;
+}
+
+.gameStats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  background: #e5e7eb;
+  padding: 1px;
+}
+
+.gameStat {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  background: white;
+  text-align: center;
+}
+
+.gameStatLabel {
+  font-size: 0.75rem;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 4px;
+}
+
+.gameStatValue {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+/* Operation Stats */
+.operationStats {
+  padding: 16px 20px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.operationStats h4 {
+  margin: 0 0 12px;
+  font-size: 0.875rem;
+  color: #374151;
+}
+
+.operationBar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.opName {
+  width: 100px;
+  font-size: 0.8125rem;
+  color: #4b5563;
+  text-transform: capitalize;
+}
+
+.opBarContainer {
+  flex: 1;
+  height: 8px;
+  background: #e5e7eb;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.opBarFill {
+  height: 100%;
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  border-radius: 4px;
+  transition: width 0.5s ease;
+}
+
+.opValue {
+  width: 40px;
+  text-align: right;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: #374151;
+}
+
+/* Level Progress */
+.levelProgress,
+.letterProgress {
+  padding: 16px 20px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.levelProgress h4,
+.letterProgress h4 {
+  margin: 0 0 12px;
+  font-size: 0.875rem;
+  color: #374151;
+}
+
+.levelsGrid,
+.lettersGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.levelBadge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 12px;
+  background: #f3f4f6;
+  border-radius: 8px;
+  min-width: 50px;
+}
+
+.levelNum {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #6b7280;
+}
+
+.levelAcc {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.letterBadge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 8px;
+  min-width: 45px;
+}
+
+.letterChar {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.letterAcc {
+  font-size: 0.6875rem;
+  color: #374151;
+}
+
+/* Recent Activity */
+.recentActivity {
+  padding: 16px 20px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.recentActivity h4 {
+  margin: 0 0 12px;
+  font-size: 0.875rem;
+  color: #374151;
+}
+
+.sessionItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 12px;
+  background: #f9fafb;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  font-size: 0.8125rem;
+}
+
+.sessionItem span {
+  color: #4b5563;
+}
+
+.sessionItem span:nth-child(2) {
+  font-weight: 600;
+  color: #111827;
+}
+
+/* Footer Note */
+.footerNote {
+  padding: 20px;
+  background: #fffbeb;
+  border: 1px solid #fcd34d;
+  border-radius: 12px;
+  margin-top: 24px;
+}
+
+.footerNote p {
+  margin: 0;
+  color: #92400e;
+  font-size: 0.9375rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    padding: 16px;
+  }
+
+  .header {
+    padding: 20px;
+  }
+
+  .headerIcon {
+    font-size: 2.5rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .statsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gamesGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .studentCard {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .statsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .previewNote {
+    flex-direction: column;
+    text-align: center;
+  }
+}

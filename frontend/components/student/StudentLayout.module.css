@@ -1,0 +1,75 @@
+/* components/student/StudentLayout.module.css */
+/* FIXED: Removed backdrop-filter blur that caused frozen screen */
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f5f7fb;
+}
+
+.mainContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  transition: margin-left 0.3s ease;
+  margin-left: 0;
+}
+
+.mainContent.withSidebar {
+  margin-left: 260px;
+}
+
+.pageContent {
+  flex: 1;
+  padding: 1.5rem;
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* FIXED: Removed backdrop-filter: blur(2px) - this was causing the frozen screen! */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 40;
+  /* NO BLUR - just dark overlay */
+}
+
+.footer {
+  padding: 1rem 1.5rem;
+  text-align: center;
+  border-top: 1px solid #e5e7eb;
+  background-color: white;
+}
+
+.footer p {
+  margin: 0;
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .mainContent.withSidebar {
+    margin-left: 0;
+  }
+
+  .pageContent {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .pageContent {
+    padding: 0.75rem;
+  }
+
+  .footer p {
+    font-size: 0.75rem;
+  }
+}

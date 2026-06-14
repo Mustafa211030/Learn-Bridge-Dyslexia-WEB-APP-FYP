@@ -1,0 +1,730 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   STUDENT LIST & DETAIL PAGE STYLES
+   Beautiful grid layouts, search filters, and cognitive assessment charts
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* ============================================
+   STUDENTS LIST PAGE
+   ============================================ */
+.studentsPage {
+  min-height: 100vh;
+  background: var(--gray-50);
+}
+
+.pageHeader {
+  background: var(--gradient-primary);
+  padding: 2rem 2rem 6rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.pageHeader::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -10%;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+  animation: float 8s ease-in-out infinite;
+}
+
+.pageHeaderContent {
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.pageTitle {
+  font-size: var(--text-3xl);
+  font-weight: 800;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.pageSubtitle {
+  font-size: var(--text-base);
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.pageContent {
+  max-width: 1400px;
+  margin: -4rem auto 0;
+  padding: 0 2rem 4rem;
+  position: relative;
+  z-index: 2;
+}
+
+/* ============================================
+   SEARCH & FILTERS SECTION
+   ============================================ */
+.filtersCard {
+  background: var(--glass-white);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: var(--radius-xl);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: var(--shadow-glass);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  animation: fadeInUp 0.5s ease-out;
+}
+
+.filtersRow {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.searchWrapper {
+  flex: 1;
+  min-width: 280px;
+  position: relative;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 0.875rem 1rem 0.875rem 3rem;
+  font-size: var(--text-sm);
+  background: white;
+  border: 2px solid var(--gray-200);
+  border-radius: var(--radius-lg);
+  color: var(--gray-800);
+  transition: all var(--transition);
+}
+
+.searchInput::placeholder {
+  color: var(--gray-400);
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: var(--primary-blue);
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.15);
+}
+
+.searchIcon {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  color: var(--gray-400);
+}
+
+.filterSelect {
+  padding: 0.875rem 2.5rem 0.875rem 1rem;
+  font-size: var(--text-sm);
+  background: white;
+  border: 2px solid var(--gray-200);
+  border-radius: var(--radius-lg);
+  color: var(--gray-700);
+  cursor: pointer;
+  transition: all var(--transition);
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  min-width: 160px;
+}
+
+.filterSelect:focus {
+  outline: none;
+  border-color: var(--primary-blue);
+}
+
+.viewToggle {
+  display: flex;
+  background: var(--gray-100);
+  border-radius: var(--radius-lg);
+  padding: 0.25rem;
+}
+
+.viewToggleBtn {
+  padding: 0.625rem 1rem;
+  border: none;
+  background: transparent;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: all var(--transition);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--gray-600);
+}
+
+.viewToggleBtn:hover {
+  color: var(--gray-800);
+}
+
+.viewToggleBtnActive {
+  background: white;
+  color: var(--primary-blue);
+  box-shadow: var(--shadow-sm);
+}
+
+.viewToggleIcon {
+  width: 18px;
+  height: 18px;
+}
+
+/* ============================================
+   STUDENTS GRID
+   ============================================ */
+.studentsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+  animation: fadeInUp 0.5s ease-out 0.15s both;
+}
+
+.studentCard {
+  background: white;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--gray-200);
+  transition: all var(--transition);
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+}
+
+.studentCard:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-xl);
+  border-color: var(--primary-blue);
+}
+
+.studentCardHeader {
+  background: var(--gradient-primary);
+  padding: 1.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.studentCardHeader::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -30%;
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.15) 0%, transparent 70%);
+}
+
+.studentCardAvatar {
+  width: 72px;
+  height: 72px;
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  margin: 0 auto 1rem;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  position: relative;
+  z-index: 1;
+}
+
+.studentCardAvatarImg {
+  width: 100%;
+  height: 100%;
+  border-radius: var(--radius-full);
+  object-fit: cover;
+}
+
+.studentCardName {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  margin-bottom: 0.25rem;
+  position: relative;
+  z-index: 1;
+}
+
+.studentCardEmail {
+  font-size: var(--text-sm);
+  color: rgba(255, 255, 255, 0.85);
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.studentCardBody {
+  padding: 1.5rem;
+}
+
+.studentCardStats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.studentCardStat {
+  text-align: center;
+}
+
+.studentCardStatValue {
+  font-size: var(--text-xl);
+  font-weight: 700;
+  color: var(--gray-900);
+}
+
+.studentCardStatLabel {
+  font-size: var(--text-xs);
+  color: var(--gray-500);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.studentCardFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  border-top: 1px solid var(--gray-200);
+}
+
+.studentCardRisk {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  padding: 0.375rem 0.875rem;
+  border-radius: var(--radius-full);
+}
+
+.riskLow {
+  background: var(--risk-low-bg);
+  color: var(--risk-low);
+}
+
+.riskMedium {
+  background: var(--risk-medium-bg);
+  color: var(--risk-medium);
+}
+
+.riskHigh {
+  background: var(--risk-high-bg);
+  color: var(--risk-high);
+}
+
+.studentCardLastActive {
+  font-size: var(--text-xs);
+  color: var(--gray-500);
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+}
+
+.studentCardLastActiveIcon {
+  width: 14px;
+  height: 14px;
+}
+
+/* ============================================
+   STUDENT DETAIL PAGE
+   ============================================ */
+.studentDetailPage {
+  min-height: 100vh;
+  background: var(--gray-50);
+}
+
+.profileHeader {
+  background: var(--gradient-primary);
+  padding: 2rem 2rem 8rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.profileHeader::before {
+  content: '';
+  position: absolute;
+  top: -30%;
+  right: -5%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+  animation: float 10s ease-in-out infinite;
+}
+
+.profileHeaderContent {
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  text-decoration: none;
+  margin-bottom: 1.5rem;
+  transition: all var(--transition);
+}
+
+.backLink:hover {
+  color: white;
+  gap: 0.75rem;
+}
+
+.backIcon {
+  width: 18px;
+  height: 18px;
+}
+
+.profileInfo {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.profileAvatar {
+  width: 96px;
+  height: 96px;
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: var(--text-4xl);
+  font-weight: 700;
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  flex-shrink: 0;
+}
+
+.profileDetails {
+  flex: 1;
+}
+
+.profileName {
+  font-size: var(--text-3xl);
+  font-weight: 800;
+  color: white;
+  margin-bottom: 0.25rem;
+}
+
+.profileEmail {
+  font-size: var(--text-base);
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 0.75rem;
+}
+
+.profileMeta {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.profileMetaItem {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  font-size: var(--text-sm);
+  color: rgba(255, 255, 255, 0.9);
+  padding: 0.375rem 0.875rem;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: var(--radius-full);
+}
+
+.profileContent {
+  max-width: 1400px;
+  margin: -6rem auto 0;
+  padding: 0 2rem 4rem;
+  position: relative;
+  z-index: 2;
+}
+
+/* Overview Stats Cards */
+.overviewStats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.overviewStatCard {
+  background: var(--glass-white);
+  backdrop-filter: blur(20px);
+  border-radius: var(--radius-xl);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-glass);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  animation: fadeInUp 0.5s ease-out both;
+}
+
+.overviewStatCard:nth-child(2) { animation-delay: 0.1s; }
+.overviewStatCard:nth-child(3) { animation-delay: 0.2s; }
+.overviewStatCard:nth-child(4) { animation-delay: 0.3s; }
+
+.overviewStatHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.overviewStatIcon {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overviewStatIconBlue {
+  background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+  color: #2563eb;
+}
+
+.overviewStatIconPurple {
+  background: linear-gradient(135deg, #ede9fe 0%, #ddd6fe 100%);
+  color: #7c3aed;
+}
+
+.overviewStatIconTeal {
+  background: linear-gradient(135deg, #ccfbf1 0%, #99f6e4 100%);
+  color: #0d9488;
+}
+
+.overviewStatIconPink {
+  background: linear-gradient(135deg, #fce7f3 0%, #fbcfe8 100%);
+  color: #db2777;
+}
+
+.overviewStatValue {
+  font-size: var(--text-3xl);
+  font-weight: 800;
+  color: var(--gray-900);
+  line-height: 1;
+}
+
+.overviewStatLabel {
+  font-size: var(--text-sm);
+  color: var(--gray-500);
+  font-weight: 500;
+}
+
+/* ============================================
+   CHARTS SECTION
+   ============================================ */
+.chartsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.chartCard {
+  background: white;
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--gray-200);
+  overflow: hidden;
+  animation: fadeInUp 0.5s ease-out 0.3s both;
+}
+
+.chartCardFull {
+  grid-column: 1 / -1;
+}
+
+.chartCardHeader {
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid var(--gray-100);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chartCardTitle {
+  font-size: var(--text-base);
+  font-weight: 700;
+  color: var(--gray-900);
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.chartCardBody {
+  padding: 1.5rem;
+  min-height: 320px;
+}
+
+.chartContainer {
+  width: 100%;
+  height: 280px;
+  position: relative;
+}
+
+/* Cognitive Scores */
+.cognitiveScores {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.cognitiveScoreItem {
+  text-align: center;
+  padding: 1rem;
+  background: var(--gray-50);
+  border-radius: var(--radius-lg);
+  transition: all var(--transition);
+}
+
+.cognitiveScoreItem:hover {
+  background: var(--gray-100);
+  transform: translateY(-2px);
+}
+
+.cognitiveScoreIcon {
+  width: 36px;
+  height: 36px;
+  margin: 0 auto 0.75rem;
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cognitiveScoreValue {
+  font-size: var(--text-2xl);
+  font-weight: 800;
+  color: var(--gray-900);
+  margin-bottom: 0.25rem;
+}
+
+.cognitiveScoreLabel {
+  font-size: var(--text-xs);
+  color: var(--gray-500);
+  font-weight: 500;
+}
+
+/* Games List */
+.gamesList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+.gameItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--gray-50);
+  border-radius: var(--radius-lg);
+  transition: all var(--transition);
+}
+
+.gameItem:hover {
+  background: var(--gray-100);
+  transform: translateX(4px);
+}
+
+.gameIcon {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.gameInfo {
+  flex: 1;
+  min-width: 0;
+}
+
+.gameName {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--gray-800);
+}
+
+.gameType {
+  font-size: var(--text-xs);
+  color: var(--gray-500);
+}
+
+/* ============================================
+   RESPONSIVE DESIGN
+   ============================================ */
+@media (max-width: 1280px) {
+  .overviewStats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .chartsGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .cognitiveScores {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .pageHeader {
+    padding: 1.5rem 1.5rem 5rem;
+  }
+  
+  .pageTitle {
+    font-size: var(--text-2xl);
+  }
+  
+  .studentsGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .filtersRow {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .searchWrapper {
+    min-width: 100%;
+  }
+  
+  .overviewStats {
+    grid-template-columns: 1fr;
+  }
+  
+  .profileInfo {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .cognitiveScores {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .pageContent,
+  .profileContent {
+    padding: 0 1rem 2rem;
+  }
+  
+  .cognitiveScores {
+    grid-template-columns: 1fr;
+  }
+}
